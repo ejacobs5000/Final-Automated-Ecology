@@ -1,0 +1,4141 @@
+{
+  "architecture": {
+    "appended_head_dropout": 0.5,
+    "appended_output_classes": 20,
+    "expanded_output_classes": 1007,
+    "frozen_feature_channels": 1024,
+    "frozen_feature_layer": 153,
+    "old_class_preservation": "the original 987 weights and all earlier layers are frozen",
+    "original_output_classes": 987,
+    "training_scope": "only the appended 20-class 1x1 convolution"
+  },
+  "caveat": "The held-out recordings support an internal pilot evaluation of the 20 new labels. The source mirror omits original recording identifiers and these are weak recording labels; they do not establish performance on the unlabeled Denoising audio.",
+  "checkpoint": "/hpc/group/coursesf26ece365/B_Net_finetune/runs/pilot_20x50_6000_ada/append20_head.pt",
+  "data": {
+    "cache": "/hpc/group/coursesf26ece365/B_Net_finetune/runs/pilot_20x50_6000_ada/features.pt",
+    "crops_per_record": 1,
+    "examples": {
+      "test": 160,
+      "train": 700,
+      "validation": 140
+    },
+    "label_scope": "one recording-level iNaturalist species label; no timestamp annotations"
+  },
+  "optimization": {
+    "best_epoch": 80,
+    "best_validation_bce": 0.17908287048339844,
+    "device": "cuda",
+    "epochs_requested": 80,
+    "learning_rate": 0.001,
+    "lr_schedule": {
+      "factor": 0.5,
+      "monitor": "validation BCE",
+      "name": "ReduceLROnPlateau",
+      "patience": 3
+    },
+    "optimizer": "Adam",
+    "patience": 12,
+    "seed": 365,
+    "weight_decay": 0.0
+  },
+  "status": "completed",
+  "test_metrics": {
+    "events": 107,
+    "macro_f1": 0.3939224664224664,
+    "macro_precision": 0.4492857142857143,
+    "macro_recall": 0.375,
+    "micro_f1": 0.44943820224719094,
+    "micro_precision": 0.5607476635514018,
+    "micro_recall": 0.375,
+    "per_class": [
+      {
+        "class_index": 0,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 1,
+        "label": "Anthornis melanura_New Zealand Bellbird",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 1,
+        "f1": 0.16666666666666666,
+        "false_negative": 7,
+        "false_positive": 3,
+        "label": "Gymnorhina tibicen_Australian Magpie",
+        "precision": 0.25,
+        "recall": 0.125,
+        "true_positive": 1
+      },
+      {
+        "class_index": 2,
+        "f1": 0.7142857142857143,
+        "false_negative": 3,
+        "false_positive": 1,
+        "label": "Dacelo novaeguineae_Laughing Kookaburra",
+        "precision": 0.8333333333333334,
+        "recall": 0.625,
+        "true_positive": 5
+      },
+      {
+        "class_index": 3,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 1,
+        "label": "Colluricincla harmonica_Gray Shrikethrush",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 4,
+        "f1": 0.7999999999999999,
+        "false_negative": 2,
+        "false_positive": 1,
+        "label": "Cacomantis flabelliformis_Fan-tailed Cuckoo",
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "true_positive": 6
+      },
+      {
+        "class_index": 5,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 0,
+        "label": "Psophodes olivaceus_Eastern Whipbird",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 6,
+        "f1": 0.75,
+        "false_negative": 2,
+        "false_positive": 2,
+        "label": "Psilopogon nuchalis_Taiwan Barbet",
+        "precision": 0.75,
+        "recall": 0.75,
+        "true_positive": 6
+      },
+      {
+        "class_index": 7,
+        "f1": 0.5714285714285715,
+        "false_negative": 4,
+        "false_positive": 2,
+        "label": "Ninox boobook_Southern Boobook",
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "true_positive": 4
+      },
+      {
+        "class_index": 8,
+        "f1": 0.0,
+        "false_negative": 8,
+        "false_positive": 2,
+        "label": "Menura novaehollandiae_Superb Lyrebird",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 9,
+        "f1": 0.39999999999999997,
+        "false_negative": 5,
+        "false_positive": 4,
+        "label": "Zanda funerea_Yellow-tailed Black-Cockatoo",
+        "precision": 0.42857142857142855,
+        "recall": 0.375,
+        "true_positive": 3
+      },
+      {
+        "class_index": 10,
+        "f1": 0.75,
+        "false_negative": 2,
+        "false_positive": 2,
+        "label": "Pardalotus punctatus_Spotted Pardalote",
+        "precision": 0.75,
+        "recall": 0.75,
+        "true_positive": 6
+      },
+      {
+        "class_index": 11,
+        "f1": 0.6,
+        "false_negative": 2,
+        "false_positive": 6,
+        "label": "Trichoglossus moluccanus_Rainbow Lorikeet",
+        "precision": 0.5,
+        "recall": 0.75,
+        "true_positive": 6
+      },
+      {
+        "class_index": 12,
+        "f1": 0.15384615384615385,
+        "false_negative": 7,
+        "false_positive": 4,
+        "label": "Zosterops lateralis_Silvereye",
+        "precision": 0.2,
+        "recall": 0.125,
+        "true_positive": 1
+      },
+      {
+        "class_index": 13,
+        "f1": 0.26666666666666666,
+        "false_negative": 6,
+        "false_positive": 5,
+        "label": "Rhipidura albiscapa_Grey Fantail",
+        "precision": 0.2857142857142857,
+        "recall": 0.25,
+        "true_positive": 2
+      },
+      {
+        "class_index": 14,
+        "f1": 0.5555555555555556,
+        "false_negative": 3,
+        "false_positive": 5,
+        "label": "Corvus mellori_Little Raven",
+        "precision": 0.5,
+        "recall": 0.625,
+        "true_positive": 5
+      },
+      {
+        "class_index": 15,
+        "f1": 0.2,
+        "false_negative": 7,
+        "false_positive": 1,
+        "label": "Cyclarhis gujanensis_Rufous-browed Peppershrike",
+        "precision": 0.5,
+        "recall": 0.125,
+        "true_positive": 1
+      },
+      {
+        "class_index": 16,
+        "f1": 0.3333333333333333,
+        "false_negative": 6,
+        "false_positive": 2,
+        "label": "Acanthiza pusilla_Brown Thornbill",
+        "precision": 0.5,
+        "recall": 0.25,
+        "true_positive": 2
+      },
+      {
+        "class_index": 17,
+        "f1": 0.2,
+        "false_negative": 7,
+        "false_positive": 1,
+        "label": "Cormobates leucophaea_White-throated Treecreeper",
+        "precision": 0.5,
+        "recall": 0.125,
+        "true_positive": 1
+      },
+      {
+        "class_index": 18,
+        "f1": 0.6666666666666666,
+        "false_negative": 3,
+        "false_positive": 2,
+        "label": "Acrocephalus australis_Australian Reed Warbler",
+        "precision": 0.7142857142857143,
+        "recall": 0.625,
+        "true_positive": 5
+      },
+      {
+        "class_index": 19,
+        "f1": 0.75,
+        "false_negative": 2,
+        "false_positive": 2,
+        "label": "Vanellus miles_Masked Lapwing",
+        "precision": 0.75,
+        "recall": 0.75,
+        "true_positive": 6
+      }
+    ],
+    "threshold": 0.1,
+    "top1_accuracy": 0.550000011920929
+  },
+  "threshold": {
+    "selected_on": "validation split only",
+    "selected_threshold": 0.1,
+    "sweep": [
+      {
+        "events": 2202,
+        "macro_f1": 0.11753220888976616,
+        "macro_precision": 0.06254377965488093,
+        "macro_recall": 0.9785714285714286,
+        "micro_f1": 0.11699402220324509,
+        "micro_precision": 0.062216167120799276,
+        "micro_recall": 0.9785714285714285,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.112,
+            "false_negative": 0,
+            "false_positive": 111,
+            "precision": 0.059322033898305086,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 1,
+            "f1": 0.11382113821138212,
+            "false_negative": 0,
+            "false_positive": 109,
+            "precision": 0.0603448275862069,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 2,
+            "f1": 0.11650485436893204,
+            "false_negative": 1,
+            "false_positive": 90,
+            "precision": 0.0625,
+            "recall": 0.8571428571428571,
+            "true_positive": 6
+          },
+          {
+            "class_index": 3,
+            "f1": 0.10687022900763359,
+            "false_negative": 0,
+            "false_positive": 117,
+            "precision": 0.056451612903225805,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 4,
+            "f1": 0.11290322580645161,
+            "false_negative": 0,
+            "false_positive": 110,
+            "precision": 0.05982905982905983,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 5,
+            "f1": 0.10526315789473684,
+            "false_negative": 0,
+            "false_positive": 119,
+            "precision": 0.05555555555555555,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 6,
+            "f1": 0.11570247933884298,
+            "false_negative": 0,
+            "false_positive": 107,
+            "precision": 0.06140350877192982,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 7,
+            "f1": 0.11864406779661016,
+            "false_negative": 0,
+            "false_positive": 104,
+            "precision": 0.06306306306306306,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 8,
+            "f1": 0.11290322580645161,
+            "false_negative": 0,
+            "false_positive": 110,
+            "precision": 0.05982905982905983,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 9,
+            "f1": 0.1090909090909091,
+            "false_negative": 1,
+            "false_positive": 97,
+            "precision": 0.05825242718446602,
+            "recall": 0.8571428571428571,
+            "true_positive": 6
+          },
+          {
+            "class_index": 10,
+            "f1": 0.12612612612612611,
+            "false_negative": 0,
+            "false_positive": 97,
+            "precision": 0.0673076923076923,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 11,
+            "f1": 0.1238938053097345,
+            "false_negative": 0,
+            "false_positive": 99,
+            "precision": 0.0660377358490566,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 12,
+            "f1": 0.125,
+            "false_negative": 0,
+            "false_positive": 98,
+            "precision": 0.06666666666666667,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 13,
+            "f1": 0.12612612612612611,
+            "false_negative": 0,
+            "false_positive": 97,
+            "precision": 0.0673076923076923,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 14,
+            "f1": 0.125,
+            "false_negative": 0,
+            "false_positive": 98,
+            "precision": 0.06666666666666667,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 15,
+            "f1": 0.09600000000000002,
+            "false_negative": 1,
+            "false_positive": 112,
+            "precision": 0.05084745762711865,
+            "recall": 0.8571428571428571,
+            "true_positive": 6
+          },
+          {
+            "class_index": 16,
+            "f1": 0.11290322580645161,
+            "false_negative": 0,
+            "false_positive": 110,
+            "precision": 0.05982905982905983,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 17,
+            "f1": 0.1238938053097345,
+            "false_negative": 0,
+            "false_positive": 99,
+            "precision": 0.0660377358490566,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 18,
+            "f1": 0.13592233009708737,
+            "false_negative": 0,
+            "false_positive": 89,
+            "precision": 0.07291666666666667,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 19,
+            "f1": 0.1320754716981132,
+            "false_negative": 0,
+            "false_positive": 92,
+            "precision": 0.0707070707070707,
+            "recall": 1.0,
+            "true_positive": 7
+          }
+        ],
+        "threshold": 0.05,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 99,
+        "macro_f1": 0.3879437229437229,
+        "macro_precision": 0.4997113997113997,
+        "macro_recall": 0.37142857142857144,
+        "micro_f1": 0.4351464435146444,
+        "micro_precision": 0.5252525252525253,
+        "micro_recall": 0.37142857142857144,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.22222222222222224,
+            "false_negative": 6,
+            "false_positive": 1,
+            "precision": 0.5,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.30769230769230765,
+            "false_negative": 5,
+            "false_positive": 4,
+            "precision": 0.3333333333333333,
+            "recall": 0.2857142857142857,
+            "true_positive": 2
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.36363636363636365,
+            "false_negative": 5,
+            "false_positive": 2,
+            "precision": 0.5,
+            "recall": 0.2857142857142857,
+            "true_positive": 2
+          },
+          {
+            "class_index": 5,
+            "f1": 0.22222222222222224,
+            "false_negative": 6,
+            "false_positive": 1,
+            "precision": 0.5,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 6,
+            "f1": 0.9333333333333333,
+            "false_negative": 0,
+            "false_positive": 1,
+            "precision": 0.875,
+            "recall": 1.0,
+            "true_positive": 7
+          },
+          {
+            "class_index": 7,
+            "f1": 0.7692307692307692,
+            "false_negative": 2,
+            "false_positive": 1,
+            "precision": 0.8333333333333334,
+            "recall": 0.7142857142857143,
+            "true_positive": 5
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 1,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.4615384615384615,
+            "false_negative": 4,
+            "false_positive": 3,
+            "precision": 0.5,
+            "recall": 0.42857142857142855,
+            "true_positive": 3
+          },
+          {
+            "class_index": 10,
+            "f1": 0.5,
+            "false_negative": 4,
+            "false_positive": 2,
+            "precision": 0.6,
+            "recall": 0.42857142857142855,
+            "true_positive": 3
+          },
+          {
+            "class_index": 11,
+            "f1": 0.5333333333333333,
+            "false_negative": 3,
+            "false_positive": 4,
+            "precision": 0.5,
+            "recall": 0.5714285714285714,
+            "true_positive": 4
+          },
+          {
+            "class_index": 12,
+            "f1": 0.3333333333333333,
+            "false_negative": 5,
+            "false_positive": 3,
+            "precision": 0.4,
+            "recall": 0.2857142857142857,
+            "true_positive": 2
+          },
+          {
+            "class_index": 13,
+            "f1": 0.6666666666666666,
+            "false_negative": 2,
+            "false_positive": 3,
+            "precision": 0.625,
+            "recall": 0.7142857142857143,
+            "true_positive": 5
+          },
+          {
+            "class_index": 14,
+            "f1": 0.5,
+            "false_negative": 3,
+            "false_positive": 5,
+            "precision": 0.4444444444444444,
+            "recall": 0.5714285714285714,
+            "true_positive": 4
+          },
+          {
+            "class_index": 15,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 16,
+            "f1": 0.4615384615384615,
+            "false_negative": 4,
+            "false_positive": 3,
+            "precision": 0.5,
+            "recall": 0.42857142857142855,
+            "true_positive": 3
+          },
+          {
+            "class_index": 17,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 18,
+            "f1": 0.42857142857142855,
+            "false_negative": 4,
+            "false_positive": 4,
+            "precision": 0.42857142857142855,
+            "recall": 0.42857142857142855,
+            "true_positive": 3
+          },
+          {
+            "class_index": 19,
+            "f1": 0.5555555555555556,
+            "false_negative": 2,
+            "false_positive": 6,
+            "precision": 0.45454545454545453,
+            "recall": 0.7142857142857143,
+            "true_positive": 5
+          }
+        ],
+        "threshold": 0.1,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 17,
+        "macro_f1": 0.1858080808080808,
+        "macro_precision": 0.5,
+        "macro_recall": 0.12142857142857141,
+        "micro_f1": 0.21656050955414013,
+        "micro_precision": 1.0,
+        "micro_recall": 0.12142857142857143,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.4444444444444445,
+            "false_negative": 5,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.2857142857142857,
+            "true_positive": 2
+          },
+          {
+            "class_index": 7,
+            "f1": 0.7272727272727273,
+            "false_negative": 3,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.5714285714285714,
+            "true_positive": 4
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 11,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 14,
+            "f1": 0.6,
+            "false_negative": 4,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.42857142857142855,
+            "true_positive": 3
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 19,
+            "f1": 0.4444444444444445,
+            "false_negative": 5,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.2857142857142857,
+            "true_positive": 2
+          }
+        ],
+        "threshold": 0.15,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 3,
+        "macro_f1": 0.034722222222222224,
+        "macro_precision": 0.1,
+        "macro_recall": 0.02142857142857143,
+        "micro_f1": 0.04195804195804196,
+        "micro_precision": 1.0,
+        "micro_recall": 0.02142857142857143,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.4444444444444445,
+            "false_negative": 5,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.2857142857142857,
+            "true_positive": 2
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.25,
+            "false_negative": 6,
+            "false_positive": 0,
+            "precision": 1.0,
+            "recall": 0.14285714285714285,
+            "true_positive": 1
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.2,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.25,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.3,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.35,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.4,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.45,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.5,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.55,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.6,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.65,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.7,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.75,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.8,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.85,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.9,
+        "top1_accuracy": 0.5642856955528259
+      },
+      {
+        "events": 0,
+        "macro_f1": 0.0,
+        "macro_precision": 0.0,
+        "macro_recall": 0.0,
+        "micro_f1": 0.0,
+        "micro_precision": 0.0,
+        "micro_recall": 0.0,
+        "per_class": [
+          {
+            "class_index": 0,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 1,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 2,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 3,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 4,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 5,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 6,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 7,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 8,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 9,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 10,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 11,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 12,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 13,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 14,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 15,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 16,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 17,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 18,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          },
+          {
+            "class_index": 19,
+            "f1": 0.0,
+            "false_negative": 7,
+            "false_positive": 0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "true_positive": 0
+          }
+        ],
+        "threshold": 0.95,
+        "top1_accuracy": 0.5642856955528259
+      }
+    ]
+  },
+  "validation_metrics": {
+    "events": 99,
+    "macro_f1": 0.3879437229437229,
+    "macro_precision": 0.4997113997113997,
+    "macro_recall": 0.37142857142857144,
+    "micro_f1": 0.4351464435146444,
+    "micro_precision": 0.5252525252525253,
+    "micro_recall": 0.37142857142857144,
+    "per_class": [
+      {
+        "class_index": 0,
+        "f1": 0.22222222222222224,
+        "false_negative": 6,
+        "false_positive": 1,
+        "label": "Anthornis melanura_New Zealand Bellbird",
+        "precision": 0.5,
+        "recall": 0.14285714285714285,
+        "true_positive": 1
+      },
+      {
+        "class_index": 1,
+        "f1": 0.0,
+        "false_negative": 7,
+        "false_positive": 2,
+        "label": "Gymnorhina tibicen_Australian Magpie",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 2,
+        "f1": 0.30769230769230765,
+        "false_negative": 5,
+        "false_positive": 4,
+        "label": "Dacelo novaeguineae_Laughing Kookaburra",
+        "precision": 0.3333333333333333,
+        "recall": 0.2857142857142857,
+        "true_positive": 2
+      },
+      {
+        "class_index": 3,
+        "f1": 0.0,
+        "false_negative": 7,
+        "false_positive": 1,
+        "label": "Colluricincla harmonica_Gray Shrikethrush",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 4,
+        "f1": 0.36363636363636365,
+        "false_negative": 5,
+        "false_positive": 2,
+        "label": "Cacomantis flabelliformis_Fan-tailed Cuckoo",
+        "precision": 0.5,
+        "recall": 0.2857142857142857,
+        "true_positive": 2
+      },
+      {
+        "class_index": 5,
+        "f1": 0.22222222222222224,
+        "false_negative": 6,
+        "false_positive": 1,
+        "label": "Psophodes olivaceus_Eastern Whipbird",
+        "precision": 0.5,
+        "recall": 0.14285714285714285,
+        "true_positive": 1
+      },
+      {
+        "class_index": 6,
+        "f1": 0.9333333333333333,
+        "false_negative": 0,
+        "false_positive": 1,
+        "label": "Psilopogon nuchalis_Taiwan Barbet",
+        "precision": 0.875,
+        "recall": 1.0,
+        "true_positive": 7
+      },
+      {
+        "class_index": 7,
+        "f1": 0.7692307692307692,
+        "false_negative": 2,
+        "false_positive": 1,
+        "label": "Ninox boobook_Southern Boobook",
+        "precision": 0.8333333333333334,
+        "recall": 0.7142857142857143,
+        "true_positive": 5
+      },
+      {
+        "class_index": 8,
+        "f1": 0.0,
+        "false_negative": 7,
+        "false_positive": 1,
+        "label": "Menura novaehollandiae_Superb Lyrebird",
+        "precision": 0.0,
+        "recall": 0.0,
+        "true_positive": 0
+      },
+      {
+        "class_index": 9,
+        "f1": 0.4615384615384615,
+        "false_negative": 4,
+        "false_positive": 3,
+        "label": "Zanda funerea_Yellow-tailed Black-Cockatoo",
+        "precision": 0.5,
+        "recall": 0.42857142857142855,
+        "true_positive": 3
+      },
+      {
+        "class_index": 10,
+        "f1": 0.5,
+        "false_negative": 4,
+        "false_positive": 2,
+        "label": "Pardalotus punctatus_Spotted Pardalote",
+        "precision": 0.6,
+        "recall": 0.42857142857142855,
+        "true_positive": 3
+      },
+      {
+        "class_index": 11,
+        "f1": 0.5333333333333333,
+        "false_negative": 3,
+        "false_positive": 4,
+        "label": "Trichoglossus moluccanus_Rainbow Lorikeet",
+        "precision": 0.5,
+        "recall": 0.5714285714285714,
+        "true_positive": 4
+      },
+      {
+        "class_index": 12,
+        "f1": 0.3333333333333333,
+        "false_negative": 5,
+        "false_positive": 3,
+        "label": "Zosterops lateralis_Silvereye",
+        "precision": 0.4,
+        "recall": 0.2857142857142857,
+        "true_positive": 2
+      },
+      {
+        "class_index": 13,
+        "f1": 0.6666666666666666,
+        "false_negative": 2,
+        "false_positive": 3,
+        "label": "Rhipidura albiscapa_Grey Fantail",
+        "precision": 0.625,
+        "recall": 0.7142857142857143,
+        "true_positive": 5
+      },
+      {
+        "class_index": 14,
+        "f1": 0.5,
+        "false_negative": 3,
+        "false_positive": 5,
+        "label": "Corvus mellori_Little Raven",
+        "precision": 0.4444444444444444,
+        "recall": 0.5714285714285714,
+        "true_positive": 4
+      },
+      {
+        "class_index": 15,
+        "f1": 0.25,
+        "false_negative": 6,
+        "false_positive": 0,
+        "label": "Cyclarhis gujanensis_Rufous-browed Peppershrike",
+        "precision": 1.0,
+        "recall": 0.14285714285714285,
+        "true_positive": 1
+      },
+      {
+        "class_index": 16,
+        "f1": 0.4615384615384615,
+        "false_negative": 4,
+        "false_positive": 3,
+        "label": "Acanthiza pusilla_Brown Thornbill",
+        "precision": 0.5,
+        "recall": 0.42857142857142855,
+        "true_positive": 3
+      },
+      {
+        "class_index": 17,
+        "f1": 0.25,
+        "false_negative": 6,
+        "false_positive": 0,
+        "label": "Cormobates leucophaea_White-throated Treecreeper",
+        "precision": 1.0,
+        "recall": 0.14285714285714285,
+        "true_positive": 1
+      },
+      {
+        "class_index": 18,
+        "f1": 0.42857142857142855,
+        "false_negative": 4,
+        "false_positive": 4,
+        "label": "Acrocephalus australis_Australian Reed Warbler",
+        "precision": 0.42857142857142855,
+        "recall": 0.42857142857142855,
+        "true_positive": 3
+      },
+      {
+        "class_index": 19,
+        "f1": 0.5555555555555556,
+        "false_negative": 2,
+        "false_positive": 6,
+        "label": "Vanellus miles_Masked Lapwing",
+        "precision": 0.45454545454545453,
+        "recall": 0.7142857142857143,
+        "true_positive": 5
+      }
+    ],
+    "threshold": 0.1,
+    "top1_accuracy": 0.5642856955528259
+  }
+}

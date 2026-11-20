@@ -1,0 +1,21 @@
+# External BirdNET base-model file; install it locally as documented.
+artifacts/BirdNET_Soundscape_Model.pkl
+
+# Input audio and raw-to-score outputs are generated locally.
+data/
+raw_flac/
+cleaned/
+cleaned_*/
+*.flac
+results/recomputed/
+
+# The five cleaned recordings in demo/audio/ are intentional, versioned examples.
+!demo/audio/*.flac
+!demo/raw_audio/*.flac
+
+# Temporary and local development files.
+*.tmp
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/

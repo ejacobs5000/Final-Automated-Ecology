@@ -1,0 +1,1008 @@
+class_index,head,scientific_name,common_name,label,reporting_threshold
+0,original_zero_shot,Dendrocopos syriacus,Syrian Woodpecker,Dendrocopos syriacus_Syrian Woodpecker,0.50
+1,original_zero_shot,Buteo albonotatus,Zone-tailed Hawk,Buteo albonotatus_Zone-tailed Hawk,0.50
+2,original_zero_shot,Limosa haemastica,Hudsonian Godwit,Limosa haemastica_Hudsonian Godwit,0.50
+3,original_zero_shot,Stercorarius maccormicki,South Polar Skua,Stercorarius maccormicki_South Polar Skua,0.50
+4,original_zero_shot,Aquila chrysaetos,Golden Eagle,Aquila chrysaetos_Golden Eagle,0.50
+5,original_zero_shot,Gavia pacifica,Pacific Loon,Gavia pacifica_Pacific Loon,0.50
+6,original_zero_shot,Thalasseus elegans,Elegant Tern,Thalasseus elegans_Elegant Tern,0.50
+7,original_zero_shot,Auriparus flaviceps,Verdin,Auriparus flaviceps_Verdin,0.50
+8,original_zero_shot,Anser fabalis,Taiga Bean-Goose,Anser fabalis_Taiga Bean-Goose,0.50
+9,original_zero_shot,Melanocorypha bimaculata,Bimaculated Lark,Melanocorypha bimaculata_Bimaculated Lark,0.50
+10,original_zero_shot,Calidris minutilla,Least Sandpiper,Calidris minutilla_Least Sandpiper,0.50
+11,original_zero_shot,Bucephala albeola,Bufflehead,Bucephala albeola_Bufflehead,0.50
+12,original_zero_shot,Anthus richardi,Richard's Pipit,Anthus richardi_Richard's Pipit,0.50
+13,original_zero_shot,Ardenna grisea,Sooty Shearwater,Ardenna grisea_Sooty Shearwater,0.50
+14,original_zero_shot,Phalaenoptilus nuttallii,Common Poorwill,Phalaenoptilus nuttallii_Common Poorwill,0.50
+15,original_zero_shot,Coccyzus minor,Mangrove Cuckoo,Coccyzus minor_Mangrove Cuckoo,0.50
+16,original_zero_shot,Sylvia nana,Asian Desert Warbler,Sylvia nana_Asian Desert Warbler,0.50
+17,original_zero_shot,Dryobates nuttallii,Nuttall's Woodpecker,Dryobates nuttallii_Nuttall's Woodpecker,0.50
+18,original_zero_shot,Antrostomus arizonae,Mexican Whip-poor-will,Antrostomus arizonae_Mexican Whip-poor-will,0.50
+19,original_zero_shot,Emberiza pusilla,Little Bunting,Emberiza pusilla_Little Bunting,0.50
+20,original_zero_shot,Poecile lugubris,Sombre Tit,Poecile lugubris_Sombre Tit,0.50
+21,original_zero_shot,Emberiza caesia,Cretzschmar's Bunting,Emberiza caesia_Cretzschmar's Bunting,0.50
+22,original_zero_shot,Poecile atricapillus,Black-capped Chickadee,Poecile atricapillus_Black-capped Chickadee,0.50
+23,original_zero_shot,Dryobates villosus,Hairy Woodpecker,Dryobates villosus_Hairy Woodpecker,0.50
+24,original_zero_shot,Tetrax tetrax,Little Bustard,Tetrax tetrax_Little Bustard,0.50
+25,original_zero_shot,Empidonax virescens,Acadian Flycatcher,Empidonax virescens_Acadian Flycatcher,0.50
+26,original_zero_shot,Myiopsitta monachus,Monk Parakeet,Myiopsitta monachus_Monk Parakeet,0.50
+27,original_zero_shot,Tachybaptus dominicus,Least Grebe,Tachybaptus dominicus_Least Grebe,0.50
+28,original_zero_shot,Sylvia deserticola,Tristram's Warbler,Sylvia deserticola_Tristram's Warbler,0.50
+29,original_zero_shot,Selasphorus rufus,Rufous Hummingbird,Selasphorus rufus_Rufous Hummingbird,0.50
+30,original_zero_shot,Rallus elegans,King Rail,Rallus elegans_King Rail,0.50
+31,original_zero_shot,Dendrocygna bicolor,Fulvous Whistling-Duck,Dendrocygna bicolor_Fulvous Whistling-Duck,0.50
+32,original_zero_shot,Oreothlypis celata,Orange-crowned Warbler,Oreothlypis celata_Orange-crowned Warbler,0.50
+33,original_zero_shot,Oenanthe pleschanka,Pied Wheatear,Oenanthe pleschanka_Pied Wheatear,0.50
+34,original_zero_shot,Phalaropus fulicarius,Red Phalarope,Phalaropus fulicarius_Red Phalarope,0.50
+35,original_zero_shot,Colaptes auratus,Northern Flicker,Colaptes auratus_Northern Flicker,0.50
+36,original_zero_shot,Fregata magnificens,Magnificent Frigatebird,Fregata magnificens_Magnificent Frigatebird,0.50
+37,original_zero_shot,Serinus serinus,European Serin,Serinus serinus_European Serin,0.50
+38,original_zero_shot,Strix nebulosa,Great Gray Owl,Strix nebulosa_Great Gray Owl,0.50
+39,original_zero_shot,Hippolais polyglotta,Melodious Warbler,Hippolais polyglotta_Melodious Warbler,0.50
+40,original_zero_shot,Ichthyaetus ichthyaetus,Pallas's Gull,Ichthyaetus ichthyaetus_Pallas's Gull,0.50
+41,original_zero_shot,Aeronautes saxatalis,White-throated Swift,Aeronautes saxatalis_White-throated Swift,0.50
+42,original_zero_shot,Alauda arvensis,Eurasian Skylark,Alauda arvensis_Eurasian Skylark,0.50
+43,original_zero_shot,Progne subis,Purple Martin,Progne subis_Purple Martin,0.50
+44,original_zero_shot,Acrocephalus baeticatus,African Reed Warbler,Acrocephalus baeticatus_African Reed Warbler,0.50
+45,original_zero_shot,Eugenes fulgens,Rivoli's Hummingbird,Eugenes fulgens_Rivoli's Hummingbird,0.50
+46,original_zero_shot,Mimus polyglottos,Northern Mockingbird,Mimus polyglottos_Northern Mockingbird,0.50
+47,original_zero_shot,Cettia cetti,Cetti's Warbler,Cettia cetti_Cetti's Warbler,0.50
+48,original_zero_shot,Helmitheros vermivorum,Worm-eating Warbler,Helmitheros vermivorum_Worm-eating Warbler,0.50
+49,original_zero_shot,Recurvirostra americana,American Avocet,Recurvirostra americana_American Avocet,0.50
+50,original_zero_shot,Stercorarius parasiticus,Parasitic Jaeger,Stercorarius parasiticus_Parasitic Jaeger,0.50
+51,original_zero_shot,Peucaea botterii,Botteri's Sparrow,Peucaea botterii_Botteri's Sparrow,0.50
+52,original_zero_shot,Calidris bairdii,Baird's Sandpiper,Calidris bairdii_Baird's Sandpiper,0.50
+53,original_zero_shot,Somateria spectabilis,King Eider,Somateria spectabilis_King Eider,0.50
+54,original_zero_shot,Icterus spurius,Orchard Oriole,Icterus spurius_Orchard Oriole,0.50
+55,original_zero_shot,Setophaga petechia,Yellow Warbler,Setophaga petechia_Yellow Warbler,0.50
+56,original_zero_shot,Oenanthe moesta,Red-rumped Wheatear,Oenanthe moesta_Red-rumped Wheatear,0.50
+57,original_zero_shot,Charadrius dubius,Little Ringed Plover,Charadrius dubius_Little Ringed Plover,0.50
+58,original_zero_shot,Turdus grayi,Clay-colored Thrush,Turdus grayi_Clay-colored Thrush,0.50
+59,original_zero_shot,Cygnus buccinator,Trumpeter Swan,Cygnus buccinator_Trumpeter Swan,0.50
+60,original_zero_shot,Circus macrourus,Pallid Harrier,Circus macrourus_Pallid Harrier,0.50
+61,original_zero_shot,Dryobates albolarvatus,White-headed Woodpecker,Dryobates albolarvatus_White-headed Woodpecker,0.50
+62,original_zero_shot,Rallus aquaticus,Water Rail,Rallus aquaticus_Water Rail,0.50
+63,original_zero_shot,Corvus cryptoleucus,Chihuahuan Raven,Corvus cryptoleucus_Chihuahuan Raven,0.50
+64,original_zero_shot,Larus marinus,Great Black-backed Gull,Larus marinus_Great Black-backed Gull,0.50
+65,original_zero_shot,Alopochen aegyptiaca,Egyptian Goose,Alopochen aegyptiaca_Egyptian Goose,0.50
+66,original_zero_shot,Cyanistes caeruleus,Eurasian Blue Tit,Cyanistes caeruleus_Eurasian Blue Tit,0.50
+67,original_zero_shot,Oceanodroma castro,Band-rumped Storm-Petrel,Oceanodroma castro_Band-rumped Storm-Petrel,0.50
+68,original_zero_shot,Larus canus,Mew Gull,Larus canus_Mew Gull,0.50
+69,original_zero_shot,Anthus gustavi,Pechora Pipit,Anthus gustavi_Pechora Pipit,0.50
+70,original_zero_shot,Columba palumbus,Common Wood-Pigeon,Columba palumbus_Common Wood-Pigeon,0.50
+71,original_zero_shot,Anthus hodgsoni,Olive-backed Pipit,Anthus hodgsoni_Olive-backed Pipit,0.50
+72,original_zero_shot,Melanitta nigra,Common Scoter,Melanitta nigra_Common Scoter,0.50
+73,original_zero_shot,Haliaeetus leucocephalus,Bald Eagle,Haliaeetus leucocephalus_Bald Eagle,0.50
+74,original_zero_shot,Toxostoma rufum,Brown Thrasher,Toxostoma rufum_Brown Thrasher,0.50
+75,original_zero_shot,Nyctidromus albicollis,Common Pauraque,Nyctidromus albicollis_Common Pauraque,0.50
+76,original_zero_shot,Sialia mexicana,Western Bluebird,Sialia mexicana_Western Bluebird,0.50
+77,original_zero_shot,Oenanthe isabellina,Isabelline Wheatear,Oenanthe isabellina_Isabelline Wheatear,0.50
+78,original_zero_shot,Iduna caligata,Booted Warbler,Iduna caligata_Booted Warbler,0.50
+79,original_zero_shot,Sitta pygmaea,Pygmy Nuthatch,Sitta pygmaea_Pygmy Nuthatch,0.50
+80,original_zero_shot,Euphagus cyanocephalus,Brewer's Blackbird,Euphagus cyanocephalus_Brewer's Blackbird,0.50
+81,original_zero_shot,Sternula albifrons,Little Tern,Sternula albifrons_Little Tern,0.50
+82,original_zero_shot,Anthropoides virgo,Demoiselle Crane,Anthropoides virgo_Demoiselle Crane,0.50
+83,original_zero_shot,Setophaga ruticilla,American Redstart,Setophaga ruticilla_American Redstart,0.50
+84,original_zero_shot,Sylvia cantillans,Subalpine Warbler,Sylvia cantillans_Subalpine Warbler,0.50
+85,original_zero_shot,Oenanthe oenanthe,Northern Wheatear,Oenanthe oenanthe_Northern Wheatear,0.50
+86,original_zero_shot,Emberiza sahari,House Bunting,Emberiza sahari_House Bunting,0.50
+87,original_zero_shot,Vireo atricapilla,Black-capped Vireo,Vireo atricapilla_Black-capped Vireo,0.50
+88,original_zero_shot,Euphagus carolinus,Rusty Blackbird,Euphagus carolinus_Rusty Blackbird,0.50
+89,original_zero_shot,Chordeiles gundlachii,Antillean Nighthawk,Chordeiles gundlachii_Antillean Nighthawk,0.50
+90,original_zero_shot,Passer simplex,Desert Sparrow,Passer simplex_Desert Sparrow,0.50
+91,original_zero_shot,Geothlypis trichas,Common Yellowthroat,Geothlypis trichas_Common Yellowthroat,0.50
+92,original_zero_shot,Charadrius melodus,Piping Plover,Charadrius melodus_Piping Plover,0.50
+93,original_zero_shot,Picus canus,Gray-headed Woodpecker,Picus canus_Gray-headed Woodpecker,0.50
+94,original_zero_shot,Vireo olivaceus,Red-eyed Vireo,Vireo olivaceus_Red-eyed Vireo,0.50
+95,original_zero_shot,Melozone fusca,Canyon Towhee,Melozone fusca_Canyon Towhee,0.50
+96,original_zero_shot,Apus melba,Alpine Swift,Apus melba_Alpine Swift,0.50
+97,original_zero_shot,Eremophila alpestris,Horned Lark,Eremophila alpestris_Horned Lark,0.50
+98,original_zero_shot,Xema sabini,Sabine's Gull,Xema sabini_Sabine's Gull,0.50
+99,original_zero_shot,Cygnus columbianus,Tundra Swan,Cygnus columbianus_Tundra Swan,0.50
+100,original_zero_shot,Pipilo erythrophthalmus,Eastern Towhee,Pipilo erythrophthalmus_Eastern Towhee,0.50
+101,original_zero_shot,Dryobates pubescens,Downy Woodpecker,Dryobates pubescens_Downy Woodpecker,0.50
+102,original_zero_shot,Micrathene whitneyi,Elf Owl,Micrathene whitneyi_Elf Owl,0.50
+103,original_zero_shot,Calliope calliope,Siberian Rubythroat,Calliope calliope_Siberian Rubythroat,0.50
+104,original_zero_shot,Dendrocopos leucotos,White-backed Woodpecker,Dendrocopos leucotos_White-backed Woodpecker,0.50
+105,original_zero_shot,Oreothlypis virginiae,Virginia's Warbler,Oreothlypis virginiae_Virginia's Warbler,0.50
+106,original_zero_shot,Circaetus gallicus,Short-toed Snake-Eagle,Circaetus gallicus_Short-toed Snake-Eagle,0.50
+107,original_zero_shot,Regulus satrapa,Golden-crowned Kinglet,Regulus satrapa_Golden-crowned Kinglet,0.50
+108,original_zero_shot,Histrionicus histrionicus,Harlequin Duck,Histrionicus histrionicus_Harlequin Duck,0.50
+109,original_zero_shot,Falco sparverius,American Kestrel,Falco sparverius_American Kestrel,0.50
+110,original_zero_shot,Setophaga citrina,Hooded Warbler,Setophaga citrina_Hooded Warbler,0.50
+111,original_zero_shot,Toxostoma crissale,Crissal Thrasher,Toxostoma crissale_Crissal Thrasher,0.50
+112,original_zero_shot,Sphyrapicus ruber,Red-breasted Sapsucker,Sphyrapicus ruber_Red-breasted Sapsucker,0.50
+113,original_zero_shot,Troglodytes aedon,House Wren,Troglodytes aedon_House Wren,0.50
+114,original_zero_shot,Zenaida macroura,Mourning Dove,Zenaida macroura_Mourning Dove,0.50
+115,original_zero_shot,Megaceryle torquata,Ringed Kingfisher,Megaceryle torquata_Ringed Kingfisher,0.50
+116,original_zero_shot,Anser brachyrhynchus,Pink-footed Goose,Anser brachyrhynchus_Pink-footed Goose,0.50
+117,original_zero_shot,Oenanthe hispanica,Black-eared Wheatear,Oenanthe hispanica_Black-eared Wheatear,0.50
+118,original_zero_shot,Clanga pomarina,Lesser Spotted Eagle,Clanga pomarina_Lesser Spotted Eagle,0.50
+119,original_zero_shot,Catharus guttatus,Hermit Thrush,Catharus guttatus_Hermit Thrush,0.50
+120,original_zero_shot,Bombycilla cedrorum,Cedar Waxwing,Bombycilla cedrorum_Cedar Waxwing,0.50
+121,original_zero_shot,Agelaius tricolor,Tricolored Blackbird,Agelaius tricolor_Tricolored Blackbird,0.50
+122,original_zero_shot,Anthus spinoletta,Water Pipit,Anthus spinoletta_Water Pipit,0.50
+123,original_zero_shot,Sylvia mystacea,Menetries's Warbler,Sylvia mystacea_Menetries's Warbler,0.50
+124,original_zero_shot,Ammomanes deserti,Desert Lark,Ammomanes deserti_Desert Lark,0.50
+125,original_zero_shot,Phylloscopus orientalis,Eastern Bonelli's Warbler,Phylloscopus orientalis_Eastern Bonelli's Warbler,0.50
+126,original_zero_shot,Coccyzus erythropthalmus,Black-billed Cuckoo,Coccyzus erythropthalmus_Black-billed Cuckoo,0.50
+127,original_zero_shot,Scolopax rusticola,Eurasian Woodcock,Scolopax rusticola_Eurasian Woodcock,0.50
+128,original_zero_shot,Locustella naevia,Common Grasshopper-Warbler,Locustella naevia_Common Grasshopper-Warbler,0.50
+129,original_zero_shot,Leucosticte tephrocotis,Gray-crowned Rosy-Finch,Leucosticte tephrocotis_Gray-crowned Rosy-Finch,0.50
+130,original_zero_shot,Coturnix coturnix,Common Quail,Coturnix coturnix_Common Quail,0.50
+131,original_zero_shot,Catharus minimus,Gray-cheeked Thrush,Catharus minimus_Gray-cheeked Thrush,0.50
+132,original_zero_shot,Seiurus aurocapilla,Ovenbird,Seiurus aurocapilla_Ovenbird,0.50
+133,original_zero_shot,Oriolus oriolus,Eurasian Golden Oriole,Oriolus oriolus_Eurasian Golden Oriole,0.50
+134,original_zero_shot,Periparus ater,Coal Tit,Periparus ater_Coal Tit,0.50
+135,original_zero_shot,Chaetura vauxi,Vaux's Swift,Chaetura vauxi_Vaux's Swift,0.50
+136,original_zero_shot,Certhia brachydactyla,Short-toed Treecreeper,Certhia brachydactyla_Short-toed Treecreeper,0.50
+137,original_zero_shot,Vireo philadelphicus,Philadelphia Vireo,Vireo philadelphicus_Philadelphia Vireo,0.50
+138,original_zero_shot,Tringa totanus,Common Redshank,Tringa totanus_Common Redshank,0.50
+139,original_zero_shot,Parus major,Great Tit,Parus major_Great Tit,0.50
+140,original_zero_shot,Luscinia megarhynchos,Common Nightingale,Luscinia megarhynchos_Common Nightingale,0.50
+141,original_zero_shot,Anser indicus,Bar-headed Goose,Anser indicus_Bar-headed Goose,0.50
+142,original_zero_shot,Ixoreus naevius,Varied Thrush,Ixoreus naevius_Varied Thrush,0.50
+143,original_zero_shot,Lymnocryptes minimus,Jack Snipe,Lymnocryptes minimus_Jack Snipe,0.50
+144,original_zero_shot,Galerida theklae,Thekla's Lark,Galerida theklae_Thekla's Lark,0.50
+145,original_zero_shot,Podiceps nigricollis,Eared Grebe,Podiceps nigricollis_Eared Grebe,0.50
+146,original_zero_shot,Phylloscopus borealis,Arctic Warbler,Phylloscopus borealis_Arctic Warbler,0.50
+147,original_zero_shot,Estrilda astrild,Common Waxbill,Estrilda astrild_Common Waxbill,0.50
+148,original_zero_shot,Selasphorus calliope,Calliope Hummingbird,Selasphorus calliope_Calliope Hummingbird,0.50
+149,original_zero_shot,Cyanocitta stelleri,Steller's Jay,Cyanocitta stelleri_Steller's Jay,0.50
+150,original_zero_shot,Mareca strepera,Gadwall,Mareca strepera_Gadwall,0.50
+151,original_zero_shot,Certhia americana,Brown Creeper,Certhia americana_Brown Creeper,0.50
+152,original_zero_shot,Dendrocoptes medius,Middle Spotted Woodpecker,Dendrocoptes medius_Middle Spotted Woodpecker,0.50
+153,original_zero_shot,Vireo bellii,Bell's Vireo,Vireo bellii_Bell's Vireo,0.50
+154,original_zero_shot,Aythya ferina,Common Pochard,Aythya ferina_Common Pochard,0.50
+155,original_zero_shot,Iduna rama,Sykes's Warbler,Iduna rama_Sykes's Warbler,0.50
+156,original_zero_shot,Phasianus colchicus,Ring-necked Pheasant,Phasianus colchicus_Ring-necked Pheasant,0.50
+157,original_zero_shot,Egretta thula,Snowy Egret,Egretta thula_Snowy Egret,0.50
+158,original_zero_shot,Salpinctes obsoletus,Rock Wren,Salpinctes obsoletus_Rock Wren,0.50
+159,original_zero_shot,Columba oenas,Stock Dove,Columba oenas_Stock Dove,0.50
+160,original_zero_shot,Corvus brachyrhynchos,American Crow,Corvus brachyrhynchos_American Crow,0.50
+161,original_zero_shot,Iduna opaca,Western Olivaceous Warbler,Iduna opaca_Western Olivaceous Warbler,0.50
+162,original_zero_shot,Vanellus vanellus,Northern Lapwing,Vanellus vanellus_Northern Lapwing,0.50
+163,original_zero_shot,Passer domesticus,House Sparrow,Passer domesticus_House Sparrow,0.50
+164,original_zero_shot,Falco columbarius,Merlin,Falco columbarius_Merlin,0.50
+165,original_zero_shot,Peucaea aestivalis,Bachman's Sparrow,Peucaea aestivalis_Bachman's Sparrow,0.50
+166,original_zero_shot,Bucephala clangula,Common Goldeneye,Bucephala clangula_Common Goldeneye,0.50
+167,original_zero_shot,Zonotrichia atricapilla,Golden-crowned Sparrow,Zonotrichia atricapilla_Golden-crowned Sparrow,0.50
+168,original_zero_shot,Myiarchus tuberculifer,Dusky-capped Flycatcher,Myiarchus tuberculifer_Dusky-capped Flycatcher,0.50
+169,original_zero_shot,Sylvia conspicillata,Spectacled Warbler,Sylvia conspicillata_Spectacled Warbler,0.50
+170,original_zero_shot,Pterocles alchata,Pin-tailed Sandgrouse,Pterocles alchata_Pin-tailed Sandgrouse,0.50
+171,original_zero_shot,Setophaga occidentalis,Hermit Warbler,Setophaga occidentalis_Hermit Warbler,0.50
+172,original_zero_shot,Milvus migrans,Black Kite,Milvus migrans_Black Kite,0.50
+173,original_zero_shot,Zapornia parva,Little Crake,Zapornia parva_Little Crake,0.50
+174,original_zero_shot,Glareola pratincola,Collared Pratincole,Glareola pratincola_Collared Pratincole,0.50
+175,original_zero_shot,Caprimulgus ruficollis,Red-necked Nightjar,Caprimulgus ruficollis_Red-necked Nightjar,0.50
+176,original_zero_shot,Geothlypis tolmiei,MacGillivray's Warbler,Geothlypis tolmiei_MacGillivray's Warbler,0.50
+177,original_zero_shot,Streptopelia turtur,European Turtle-Dove,Streptopelia turtur_European Turtle-Dove,0.50
+178,original_zero_shot,Antrostomus vociferus,Eastern Whip-poor-will,Antrostomus vociferus_Eastern Whip-poor-will,0.50
+179,original_zero_shot,Alaemon alaudipes,Greater Hoopoe-Lark,Alaemon alaudipes_Greater Hoopoe-Lark,0.50
+180,original_zero_shot,Sylvia ruppeli,Rueppell's Warbler,Sylvia ruppeli_Rueppell's Warbler,0.50
+181,original_zero_shot,Sturnus vulgaris,European Starling,Sturnus vulgaris_European Starling,0.50
+182,original_zero_shot,Ficedula semitorquata,Semicollared Flycatcher,Ficedula semitorquata_Semicollared Flycatcher,0.50
+183,original_zero_shot,Perdix perdix,Gray Partridge,Perdix perdix_Gray Partridge,0.50
+184,original_zero_shot,Calidris mauri,Western Sandpiper,Calidris mauri_Western Sandpiper,0.50
+185,original_zero_shot,Scolopax minor,American Woodcock,Scolopax minor_American Woodcock,0.50
+186,original_zero_shot,Larus fuscus,Lesser Black-backed Gull,Larus fuscus_Lesser Black-backed Gull,0.50
+187,original_zero_shot,Icterus parisorum,Scott's Oriole,Icterus parisorum_Scott's Oriole,0.50
+188,original_zero_shot,Anthus cervinus,Red-throated Pipit,Anthus cervinus_Red-throated Pipit,0.50
+189,original_zero_shot,Buteo buteo,Common Buzzard,Buteo buteo_Common Buzzard,0.50
+190,original_zero_shot,Prunella ocularis,Radde's Accentor,Prunella ocularis_Radde's Accentor,0.50
+191,original_zero_shot,Lagopus muta,Rock Ptarmigan,Lagopus muta_Rock Ptarmigan,0.50
+192,original_zero_shot,Vireo vicinior,Gray Vireo,Vireo vicinior_Gray Vireo,0.50
+193,original_zero_shot,Pheucticus melanocephalus,Black-headed Grosbeak,Pheucticus melanocephalus_Black-headed Grosbeak,0.50
+194,original_zero_shot,Passerina cyanea,Indigo Bunting,Passerina cyanea_Indigo Bunting,0.50
+195,original_zero_shot,Ixobrychus minutus,Little Bittern,Ixobrychus minutus_Little Bittern,0.50
+196,original_zero_shot,Melanocorypha yeltoniensis,Black Lark,Melanocorypha yeltoniensis_Black Lark,0.50
+197,original_zero_shot,Cyanopica cooki,Iberian Magpie,Cyanopica cooki_Iberian Magpie,0.50
+198,original_zero_shot,Quiscalus quiscula,Common Grackle,Quiscalus quiscula_Common Grackle,0.50
+199,original_zero_shot,Poecile rufescens,Chestnut-backed Chickadee,Poecile rufescens_Chestnut-backed Chickadee,0.50
+200,original_zero_shot,Anas acuta,Northern Pintail,Anas acuta_Northern Pintail,0.50
+201,original_zero_shot,Polioptila caerulea,Blue-gray Gnatcatcher,Polioptila caerulea_Blue-gray Gnatcatcher,0.50
+202,original_zero_shot,Falco subbuteo,Eurasian Hobby,Falco subbuteo_Eurasian Hobby,0.50
+203,original_zero_shot,Melospiza georgiana,Swamp Sparrow,Melospiza georgiana_Swamp Sparrow,0.50
+204,original_zero_shot,Empidonax minimus,Least Flycatcher,Empidonax minimus_Least Flycatcher,0.50
+205,original_zero_shot,Sylvia subalpina,Moltoni's Warbler,Sylvia subalpina_Moltoni's Warbler,0.50
+206,original_zero_shot,Melanerpes formicivorus,Acorn Woodpecker,Melanerpes formicivorus_Acorn Woodpecker,0.50
+207,original_zero_shot,Emberiza buchanani,Gray-necked Bunting,Emberiza buchanani_Gray-necked Bunting,0.50
+208,original_zero_shot,Zenaida asiatica,White-winged Dove,Zenaida asiatica_White-winged Dove,0.50
+209,original_zero_shot,Chroicocephalus genei,Slender-billed Gull,Chroicocephalus genei_Slender-billed Gull,0.50
+210,original_zero_shot,Stercorarius longicaudus,Long-tailed Jaeger,Stercorarius longicaudus_Long-tailed Jaeger,0.50
+211,original_zero_shot,Alca torda,Razorbill,Alca torda_Razorbill,0.50
+212,original_zero_shot,Alauda leucoptera,White-winged Lark,Alauda leucoptera_White-winged Lark,0.50
+213,original_zero_shot,Psittacula eupatria,Alexandrine Parakeet,Psittacula eupatria_Alexandrine Parakeet,0.50
+214,original_zero_shot,Carduelis citrinella,Citril Finch,Carduelis citrinella_Citril Finch,0.50
+215,original_zero_shot,Larus cachinnans,Caspian Gull,Larus cachinnans_Caspian Gull,0.50
+216,original_zero_shot,Limosa lapponica,Bar-tailed Godwit,Limosa lapponica_Bar-tailed Godwit,0.50
+217,original_zero_shot,Sitta europaea,Eurasian Nuthatch,Sitta europaea_Eurasian Nuthatch,0.50
+218,original_zero_shot,Ictinia mississippiensis,Mississippi Kite,Ictinia mississippiensis_Mississippi Kite,0.50
+219,original_zero_shot,Myiarchus crinitus,Great Crested Flycatcher,Myiarchus crinitus_Great Crested Flycatcher,0.50
+220,original_zero_shot,Piranga flava,Hepatic Tanager,Piranga flava_Hepatic Tanager,0.50
+221,original_zero_shot,Aythya collaris,Ring-necked Duck,Aythya collaris_Ring-necked Duck,0.50
+222,original_zero_shot,Icterus bullockii,Bullock's Oriole,Icterus bullockii_Bullock's Oriole,0.50
+223,original_zero_shot,Antrostomus carolinensis,Chuck-will's-widow,Antrostomus carolinensis_Chuck-will's-widow,0.50
+224,original_zero_shot,Apus affinis,Little Swift,Apus affinis_Little Swift,0.50
+225,original_zero_shot,Corvus corax,Common Raven,Corvus corax_Common Raven,0.50
+226,original_zero_shot,Aphelocoma wollweberi,Mexican Jay,Aphelocoma wollweberi_Mexican Jay,0.50
+227,original_zero_shot,Chloris chloris,European Greenfinch,Chloris chloris_European Greenfinch,0.50
+228,original_zero_shot,Limnothlypis swainsonii,Swainson's Warbler,Limnothlypis swainsonii_Swainson's Warbler,0.50
+229,original_zero_shot,Empidonax oberholseri,Dusky Flycatcher,Empidonax oberholseri_Dusky Flycatcher,0.50
+230,original_zero_shot,Pterocles senegallus,Spotted Sandgrouse,Pterocles senegallus_Spotted Sandgrouse,0.50
+231,original_zero_shot,Dendragapus obscurus,Dusky Grouse,Dendragapus obscurus_Dusky Grouse,0.50
+232,original_zero_shot,Loxia sinesciuris,Cassia Crossbill,Loxia sinesciuris_Cassia Crossbill,0.50
+233,original_zero_shot,Fratercula arctica,Atlantic Puffin,Fratercula arctica_Atlantic Puffin,0.50
+234,original_zero_shot,Acanthis hornemanni,Hoary Redpoll,Acanthis hornemanni_Hoary Redpoll,0.50
+235,original_zero_shot,Artemisiospiza belli,Bell's Sparrow,Artemisiospiza belli_Bell's Sparrow,0.50
+236,original_zero_shot,Icterus graduacauda,Audubon's Oriole,Icterus graduacauda_Audubon's Oriole,0.50
+237,original_zero_shot,Lanius borealis,Northern Shrike,Lanius borealis_Northern Shrike,0.50
+238,original_zero_shot,Himantopus himantopus,Black-winged Stilt,Himantopus himantopus_Black-winged Stilt,0.50
+239,original_zero_shot,Cercotrichas galactotes,Rufous-tailed Scrub-Robin,Cercotrichas galactotes_Rufous-tailed Scrub-Robin,0.50
+240,original_zero_shot,Leucophaeus atricilla,Laughing Gull,Leucophaeus atricilla_Laughing Gull,0.50
+241,original_zero_shot,Accipiter nisus,Eurasian Sparrowhawk,Accipiter nisus_Eurasian Sparrowhawk,0.50
+242,original_zero_shot,Anser anser,Graylag Goose,Anser anser_Graylag Goose,0.50
+243,original_zero_shot,Tringa semipalmata,Willet,Tringa semipalmata_Willet,0.50
+244,original_zero_shot,Setophaga pitiayumi,Tropical Parula,Setophaga pitiayumi_Tropical Parula,0.50
+245,original_zero_shot,Sterna hirundo,Common Tern,Sterna hirundo_Common Tern,0.50
+246,original_zero_shot,Tetrao tetrix,Black Grouse,Tetrao tetrix_Black Grouse,0.50
+247,original_zero_shot,Megaceryle alcyon,Belted Kingfisher,Megaceryle alcyon_Belted Kingfisher,0.50
+248,original_zero_shot,Ardeola ralloides,Squacco Heron,Ardeola ralloides_Squacco Heron,0.50
+249,original_zero_shot,Oporornis agilis,Connecticut Warbler,Oporornis agilis_Connecticut Warbler,0.50
+250,original_zero_shot,Centronyx bairdii,Baird's Sparrow,Centronyx bairdii_Baird's Sparrow,0.50
+251,original_zero_shot,Limnodromus griseus,Short-billed Dowitcher,Limnodromus griseus_Short-billed Dowitcher,0.50
+252,original_zero_shot,Passerina versicolor,Varied Bunting,Passerina versicolor_Varied Bunting,0.50
+253,original_zero_shot,Tyrannus couchii,Couch's Kingbird,Tyrannus couchii_Couch's Kingbird,0.50
+254,original_zero_shot,Melanerpes carolinus,Red-bellied Woodpecker,Melanerpes carolinus_Red-bellied Woodpecker,0.50
+255,original_zero_shot,Passer montanus,Eurasian Tree Sparrow,Passer montanus_Eurasian Tree Sparrow,0.50
+256,original_zero_shot,Streptopelia decaocto,Eurasian Collared-Dove,Streptopelia decaocto_Eurasian Collared-Dove,0.50
+257,original_zero_shot,Setophaga fusca,Blackburnian Warbler,Setophaga fusca_Blackburnian Warbler,0.50
+258,original_zero_shot,Porphyrio poliocephalus,Gray-headed Swamphen,Porphyrio poliocephalus_Gray-headed Swamphen,0.50
+259,original_zero_shot,Cyanistes teneriffae,African Blue Tit,Cyanistes teneriffae_African Blue Tit,0.50
+260,original_zero_shot,Platalea leucorodia,Eurasian Spoonbill,Platalea leucorodia_Eurasian Spoonbill,0.50
+261,original_zero_shot,Nyctanassa violacea,Yellow-crowned Night-Heron,Nyctanassa violacea_Yellow-crowned Night-Heron,0.50
+262,original_zero_shot,Baeolophus wollweberi,Bridled Titmouse,Baeolophus wollweberi_Bridled Titmouse,0.50
+263,original_zero_shot,Larus glaucescens,Glaucous-winged Gull,Larus glaucescens_Glaucous-winged Gull,0.50
+264,original_zero_shot,Cistothorus palustris,Marsh Wren,Cistothorus palustris_Marsh Wren,0.50
+265,original_zero_shot,Mareca americana,American Wigeon,Mareca americana_American Wigeon,0.50
+266,original_zero_shot,Acrocephalus arundinaceus,Great Reed Warbler,Acrocephalus arundinaceus_Great Reed Warbler,0.50
+267,original_zero_shot,Catharus bicknelli,Bicknell's Thrush,Catharus bicknelli_Bicknell's Thrush,0.50
+268,original_zero_shot,Onychoprion fuscatus,Sooty Tern,Onychoprion fuscatus_Sooty Tern,0.50
+269,original_zero_shot,Aphelocoma insularis,Island Scrub-Jay,Aphelocoma insularis_Island Scrub-Jay,0.50
+270,original_zero_shot,Pelecanus occidentalis,Brown Pelican,Pelecanus occidentalis_Brown Pelican,0.50
+271,original_zero_shot,Lagonosticta senegala,Red-billed Firefinch,Lagonosticta senegala_Red-billed Firefinch,0.50
+272,original_zero_shot,Pterocles exustus,Chestnut-bellied Sandgrouse,Pterocles exustus_Chestnut-bellied Sandgrouse,0.50
+273,original_zero_shot,Chroicocephalus ridibundus,Black-headed Gull,Chroicocephalus ridibundus_Black-headed Gull,0.50
+274,original_zero_shot,Corvus frugilegus,Rook,Corvus frugilegus_Rook,0.50
+275,original_zero_shot,Certhia familiaris,Eurasian Treecreeper,Certhia familiaris_Eurasian Treecreeper,0.50
+276,original_zero_shot,Sylvia communis,Greater Whitethroat,Sylvia communis_Greater Whitethroat,0.50
+277,original_zero_shot,Tringa stagnatilis,Marsh Sandpiper,Tringa stagnatilis_Marsh Sandpiper,0.50
+278,original_zero_shot,Hydroprogne caspia,Caspian Tern,Hydroprogne caspia_Caspian Tern,0.50
+279,original_zero_shot,Chersophilus duponti,Dupont's Lark,Chersophilus duponti_Dupont's Lark,0.50
+280,original_zero_shot,Spinus tristis,American Goldfinch,Spinus tristis_American Goldfinch,0.50
+281,original_zero_shot,Egretta tricolor,Tricolored Heron,Egretta tricolor_Tricolored Heron,0.50
+282,original_zero_shot,Scotocerca inquieta,Scrub Warbler,Scotocerca inquieta_Scrub Warbler,0.50
+283,original_zero_shot,Numenius phaeopus,Whimbrel,Numenius phaeopus_Whimbrel,0.50
+284,original_zero_shot,Tetrastes bonasia,Hazel Grouse,Tetrastes bonasia_Hazel Grouse,0.50
+285,original_zero_shot,Empidonax hammondii,Hammond's Flycatcher,Empidonax hammondii_Hammond's Flycatcher,0.50
+286,original_zero_shot,Regulus ignicapilla,Common Firecrest,Regulus ignicapilla_Common Firecrest,0.50
+287,original_zero_shot,Dendragapus fuliginosus,Sooty Grouse,Dendragapus fuliginosus_Sooty Grouse,0.50
+288,original_zero_shot,Pooecetes gramineus,Vesper Sparrow,Pooecetes gramineus_Vesper Sparrow,0.50
+289,original_zero_shot,Acridotheres tristis,Common Myna,Acridotheres tristis_Common Myna,0.50
+290,original_zero_shot,Calcarius pictus,Smith's Longspur,Calcarius pictus_Smith's Longspur,0.50
+291,original_zero_shot,Melanocorypha calandra,Calandra Lark,Melanocorypha calandra_Calandra Lark,0.50
+292,original_zero_shot,Toxostoma bendirei,Bendire's Thrasher,Toxostoma bendirei_Bendire's Thrasher,0.50
+293,original_zero_shot,Lanius collurio,Red-backed Shrike,Lanius collurio_Red-backed Shrike,0.50
+294,original_zero_shot,Prunella modularis,Dunnock,Prunella modularis_Dunnock,0.50
+295,original_zero_shot,Sitta carolinensis,White-breasted Nuthatch,Sitta carolinensis_White-breasted Nuthatch,0.50
+296,original_zero_shot,Tyrannus dominicensis,Gray Kingbird,Tyrannus dominicensis_Gray Kingbird,0.50
+297,original_zero_shot,Dryocopus pileatus,Pileated Woodpecker,Dryocopus pileatus_Pileated Woodpecker,0.50
+298,original_zero_shot,Myioborus pictus,Painted Redstart,Myioborus pictus_Painted Redstart,0.50
+299,original_zero_shot,Tringa incana,Wandering Tattler,Tringa incana_Wandering Tattler,0.50
+300,original_zero_shot,Phylloscopus nitidus,Green Warbler,Phylloscopus nitidus_Green Warbler,0.50
+301,original_zero_shot,Numenius americanus,Long-billed Curlew,Numenius americanus_Long-billed Curlew,0.50
+302,original_zero_shot,Non-Bird,Non-Bird,Non-Bird_Non-Bird,0.50
+303,original_zero_shot,Locustella luscinioides,Savi's Warbler,Locustella luscinioides_Savi's Warbler,0.50
+304,original_zero_shot,Zonotrichia leucophrys,White-crowned Sparrow,Zonotrichia leucophrys_White-crowned Sparrow,0.50
+305,original_zero_shot,Ichthyaetus melanocephalus,Mediterranean Gull,Ichthyaetus melanocephalus_Mediterranean Gull,0.50
+306,original_zero_shot,Chlidonias hybrida,Whiskered Tern,Chlidonias hybrida_Whiskered Tern,0.50
+307,original_zero_shot,Pipilo maculatus,Spotted Towhee,Pipilo maculatus_Spotted Towhee,0.50
+308,original_zero_shot,Polioptila melanura,Black-tailed Gnatcatcher,Polioptila melanura_Black-tailed Gnatcatcher,0.50
+309,original_zero_shot,Ceryle rudis,Pied Kingfisher,Ceryle rudis_Pied Kingfisher,0.50
+310,original_zero_shot,Aphelocoma californica,California Scrub-Jay,Aphelocoma californica_California Scrub-Jay,0.50
+311,original_zero_shot,Buteo swainsoni,Swainson's Hawk,Buteo swainsoni_Swainson's Hawk,0.50
+312,original_zero_shot,Cynanthus latirostris,Broad-billed Hummingbird,Cynanthus latirostris_Broad-billed Hummingbird,0.50
+313,original_zero_shot,Tringa melanoleuca,Greater Yellowlegs,Tringa melanoleuca_Greater Yellowlegs,0.50
+314,original_zero_shot,Limosa limosa,Black-tailed Godwit,Limosa limosa_Black-tailed Godwit,0.50
+315,original_zero_shot,Elanus leucurus,White-tailed Kite,Elanus leucurus_White-tailed Kite,0.50
+316,original_zero_shot,Pyrrhula pyrrhula,Eurasian Bullfinch,Pyrrhula pyrrhula_Eurasian Bullfinch,0.50
+317,original_zero_shot,Empidonax alnorum,Alder Flycatcher,Empidonax alnorum_Alder Flycatcher,0.50
+318,original_zero_shot,Bubo virginianus,Great Horned Owl,Bubo virginianus_Great Horned Owl,0.50
+319,original_zero_shot,Mergus merganser,Common Merganser,Mergus merganser_Common Merganser,0.50
+320,original_zero_shot,Dendrocygna autumnalis,Black-bellied Whistling-Duck,Dendrocygna autumnalis_Black-bellied Whistling-Duck,0.50
+321,original_zero_shot,Tringa nebularia,Common Greenshank,Tringa nebularia_Common Greenshank,0.50
+322,original_zero_shot,Hippolais languida,Upcher's Warbler,Hippolais languida_Upcher's Warbler,0.50
+323,original_zero_shot,Acanthis cabaret,Lesser Redpoll,Acanthis cabaret_Lesser Redpoll,0.50
+324,original_zero_shot,Dryobates borealis,Red-cockaded Woodpecker,Dryobates borealis_Red-cockaded Woodpecker,0.50
+325,original_zero_shot,Sitta neumayer,Western Rock Nuthatch,Sitta neumayer_Western Rock Nuthatch,0.50
+326,original_zero_shot,Melozone aberti,Abert's Towhee,Melozone aberti_Abert's Towhee,0.50
+327,original_zero_shot,Emberiza bruniceps,Red-headed Bunting,Emberiza bruniceps_Red-headed Bunting,0.50
+328,original_zero_shot,Megascops trichopsis,Whiskered Screech-Owl,Megascops trichopsis_Whiskered Screech-Owl,0.50
+329,original_zero_shot,Podiceps grisegena,Red-necked Grebe,Podiceps grisegena_Red-necked Grebe,0.50
+330,original_zero_shot,Spizella pusilla,Field Sparrow,Spizella pusilla_Field Sparrow,0.50
+331,original_zero_shot,Calidris temminckii,Temminck's Stint,Calidris temminckii_Temminck's Stint,0.50
+332,original_zero_shot,Brachyramphus marmoratus,Marbled Murrelet,Brachyramphus marmoratus_Marbled Murrelet,0.50
+333,original_zero_shot,Fringilla coelebs,Common Chaffinch,Fringilla coelebs_Common Chaffinch,0.50
+334,original_zero_shot,Patagioenas fasciata,Band-tailed Pigeon,Patagioenas fasciata_Band-tailed Pigeon,0.50
+335,original_zero_shot,Sylvia sarda,Marmora's Warbler,Sylvia sarda_Marmora's Warbler,0.50
+336,original_zero_shot,Archilochus alexandri,Black-chinned Hummingbird,Archilochus alexandri_Black-chinned Hummingbird,0.50
+337,original_zero_shot,Tringa solitaria,Solitary Sandpiper,Tringa solitaria_Solitary Sandpiper,0.50
+338,original_zero_shot,Camptostoma imberbe,Northern Beardless-Tyrannulet,Camptostoma imberbe_Northern Beardless-Tyrannulet,0.50
+339,original_zero_shot,Coragyps atratus,Black Vulture,Coragyps atratus_Black Vulture,0.50
+340,original_zero_shot,Sylvia curruca,Lesser Whitethroat,Sylvia curruca_Lesser Whitethroat,0.50
+341,original_zero_shot,Anthus pratensis,Meadow Pipit,Anthus pratensis_Meadow Pipit,0.50
+342,original_zero_shot,Cyanistes cyanus,Azure Tit,Cyanistes cyanus_Azure Tit,0.50
+343,original_zero_shot,Bubo bubo,Eurasian Eagle-Owl,Bubo bubo_Eurasian Eagle-Owl,0.50
+344,original_zero_shot,Cygnus cygnus,Whooper Swan,Cygnus cygnus_Whooper Swan,0.50
+345,original_zero_shot,Grus grus,Common Crane,Grus grus_Common Crane,0.50
+346,original_zero_shot,Egretta garzetta,Little Egret,Egretta garzetta_Little Egret,0.50
+347,original_zero_shot,Buteo lineatus,Red-shouldered Hawk,Buteo lineatus_Red-shouldered Hawk,0.50
+348,original_zero_shot,Regulus calendula,Ruby-crowned Kinglet,Regulus calendula_Ruby-crowned Kinglet,0.50
+349,original_zero_shot,Setophaga pensylvanica,Chestnut-sided Warbler,Setophaga pensylvanica_Chestnut-sided Warbler,0.50
+350,original_zero_shot,Bucanetes githagineus,Trumpeter Finch,Bucanetes githagineus_Trumpeter Finch,0.50
+351,original_zero_shot,Gallus gallus,Red Junglefowl,Gallus gallus_Red Junglefowl,0.50
+352,original_zero_shot,Calidris maritima,Purple Sandpiper,Calidris maritima_Purple Sandpiper,0.50
+353,original_zero_shot,Aix sponsa,Wood Duck,Aix sponsa_Wood Duck,0.50
+354,original_zero_shot,Selasphorus platycercus,Broad-tailed Hummingbird,Selasphorus platycercus_Broad-tailed Hummingbird,0.50
+355,original_zero_shot,Carduelis corsicana,Corsican Finch,Carduelis corsicana_Corsican Finch,0.50
+356,original_zero_shot,Rissa brevirostris,Red-legged Kittiwake,Rissa brevirostris_Red-legged Kittiwake,0.50
+357,original_zero_shot,Pastor roseus,Rosy Starling,Pastor roseus_Rosy Starling,0.50
+358,original_zero_shot,Calidris ptilocnemis,Rock Sandpiper,Calidris ptilocnemis_Rock Sandpiper,0.50
+359,original_zero_shot,Vermivora chrysoptera,Golden-winged Warbler,Vermivora chrysoptera_Golden-winged Warbler,0.50
+360,original_zero_shot,Buteo brachyurus,Short-tailed Hawk,Buteo brachyurus_Short-tailed Hawk,0.50
+361,original_zero_shot,Calidris virgata,Surfbird,Calidris virgata_Surfbird,0.50
+362,original_zero_shot,Accipiter striatus,Sharp-shinned Hawk,Accipiter striatus_Sharp-shinned Hawk,0.50
+363,original_zero_shot,Pelecanus onocrotalus,Great White Pelican,Pelecanus onocrotalus_Great White Pelican,0.50
+364,original_zero_shot,Lagopus leucura,White-tailed Ptarmigan,Lagopus leucura_White-tailed Ptarmigan,0.50
+365,original_zero_shot,Anthus spragueii,Sprague's Pipit,Anthus spragueii_Sprague's Pipit,0.50
+366,original_zero_shot,Phylloscopus trochilus,Willow Warbler,Phylloscopus trochilus_Willow Warbler,0.50
+367,original_zero_shot,Tachybaptus ruficollis,Little Grebe,Tachybaptus ruficollis_Little Grebe,0.50
+368,original_zero_shot,Chroicocephalus philadelphia,Bonaparte's Gull,Chroicocephalus philadelphia_Bonaparte's Gull,0.50
+369,original_zero_shot,Buteo plagiatus,Gray Hawk,Buteo plagiatus_Gray Hawk,0.50
+370,original_zero_shot,Turdus torquatus,Ring Ouzel,Turdus torquatus_Ring Ouzel,0.50
+371,original_zero_shot,Chordeiles acutipennis,Lesser Nighthawk,Chordeiles acutipennis_Lesser Nighthawk,0.50
+372,original_zero_shot,Charadrius leschenaultii,Greater Sand-Plover,Charadrius leschenaultii_Greater Sand-Plover,0.50
+373,original_zero_shot,Sitta krueperi,Krueper's Nuthatch,Sitta krueperi_Krueper's Nuthatch,0.50
+374,original_zero_shot,Larus michahellis,Yellow-legged Gull,Larus michahellis_Yellow-legged Gull,0.50
+375,original_zero_shot,Bubo scandiacus,Snowy Owl,Bubo scandiacus_Snowy Owl,0.50
+376,original_zero_shot,Xanthocephalus xanthocephalus,Yellow-headed Blackbird,Xanthocephalus xanthocephalus_Yellow-headed Blackbird,0.50
+377,original_zero_shot,Sturnella neglecta,Western Meadowlark,Sturnella neglecta_Western Meadowlark,0.50
+378,original_zero_shot,Caracara cheriway,Crested Caracara,Caracara cheriway_Crested Caracara,0.50
+379,original_zero_shot,Amazona viridigenalis,Red-crowned Parrot,Amazona viridigenalis_Red-crowned Parrot,0.50
+380,original_zero_shot,Oreothlypis peregrina,Tennessee Warbler,Oreothlypis peregrina_Tennessee Warbler,0.50
+381,original_zero_shot,Aythya americana,Redhead,Aythya americana_Redhead,0.50
+382,original_zero_shot,Nycticorax nycticorax,Black-crowned Night-Heron,Nycticorax nycticorax_Black-crowned Night-Heron,0.50
+383,original_zero_shot,Anser caerulescens,Snow Goose,Anser caerulescens_Snow Goose,0.50
+384,original_zero_shot,Melozone crissalis,California Towhee,Melozone crissalis_California Towhee,0.50
+385,original_zero_shot,Hippolais olivetorum,Olive-tree Warbler,Hippolais olivetorum_Olive-tree Warbler,0.50
+386,original_zero_shot,Morus bassanus,Northern Gannet,Morus bassanus_Northern Gannet,0.50
+387,original_zero_shot,Spizella pallida,Clay-colored Sparrow,Spizella pallida_Clay-colored Sparrow,0.50
+388,original_zero_shot,Agelaius phoeniceus,Red-winged Blackbird,Agelaius phoeniceus_Red-winged Blackbird,0.50
+389,original_zero_shot,Human,Human,Human_Human,0.50
+390,original_zero_shot,Megascops kennicottii,Western Screech-Owl,Megascops kennicottii_Western Screech-Owl,0.50
+391,original_zero_shot,Pandion haliaetus,Osprey,Pandion haliaetus_Osprey,0.50
+392,original_zero_shot,Turdus philomelos,Song Thrush,Turdus philomelos_Song Thrush,0.50
+393,original_zero_shot,Toxostoma curvirostre,Curve-billed Thrasher,Toxostoma curvirostre_Curve-billed Thrasher,0.50
+394,original_zero_shot,Emberiza cirlus,Cirl Bunting,Emberiza cirlus_Cirl Bunting,0.50
+395,original_zero_shot,Anas platyrhynchos,Mallard,Anas platyrhynchos_Mallard,0.50
+396,original_zero_shot,Leucosticte australis,Brown-capped Rosy-Finch,Leucosticte australis_Brown-capped Rosy-Finch,0.50
+397,original_zero_shot,Pheucticus ludovicianus,Rose-breasted Grosbeak,Pheucticus ludovicianus_Rose-breasted Grosbeak,0.50
+398,original_zero_shot,Thalasseus sandvicensis,Sandwich Tern,Thalasseus sandvicensis_Sandwich Tern,0.50
+399,original_zero_shot,Passerina amoena,Lazuli Bunting,Passerina amoena_Lazuli Bunting,0.50
+400,original_zero_shot,Columba livia,Rock Pigeon,Columba livia_Rock Pigeon,0.50
+401,original_zero_shot,Melanerpes lewis,Lewis's Woodpecker,Melanerpes lewis_Lewis's Woodpecker,0.50
+402,original_zero_shot,Tachycineta bicolor,Tree Swallow,Tachycineta bicolor_Tree Swallow,0.50
+403,original_zero_shot,Spizelloides arborea,American Tree Sparrow,Spizelloides arborea_American Tree Sparrow,0.50
+404,original_zero_shot,Plegadis chihi,White-faced Ibis,Plegadis chihi_White-faced Ibis,0.50
+405,original_zero_shot,Setophaga chrysoparia,Golden-cheeked Warbler,Setophaga chrysoparia_Golden-cheeked Warbler,0.50
+406,original_zero_shot,Melanerpes erythrocephalus,Red-headed Woodpecker,Melanerpes erythrocephalus_Red-headed Woodpecker,0.50
+407,original_zero_shot,Actitis macularius,Spotted Sandpiper,Actitis macularius_Spotted Sandpiper,0.50
+408,original_zero_shot,Podilymbus podiceps,Pied-billed Grebe,Podilymbus podiceps_Pied-billed Grebe,0.50
+409,original_zero_shot,Perisoreus infaustus,Siberian Jay,Perisoreus infaustus_Siberian Jay,0.50
+410,original_zero_shot,Tadorna tadorna,Common Shelduck,Tadorna tadorna_Common Shelduck,0.50
+411,original_zero_shot,Halcyon smyrnensis,White-throated Kingfisher,Halcyon smyrnensis_White-throated Kingfisher,0.50
+412,original_zero_shot,Falco femoralis,Aplomado Falcon,Falco femoralis_Aplomado Falcon,0.50
+413,original_zero_shot,Aphelocoma woodhouseii,Woodhouse's Scrub-Jay,Aphelocoma woodhouseii_Woodhouse's Scrub-Jay,0.50
+414,original_zero_shot,Anser rossii,Ross's Goose,Anser rossii_Ross's Goose,0.50
+415,original_zero_shot,Hieraaetus pennatus,Booted Eagle,Hieraaetus pennatus_Booted Eagle,0.50
+416,original_zero_shot,Contopus virens,Eastern Wood-Pewee,Contopus virens_Eastern Wood-Pewee,0.50
+417,original_zero_shot,Coturnicops noveboracensis,Yellow Rail,Coturnicops noveboracensis_Yellow Rail,0.50
+418,original_zero_shot,Eudocimus albus,White Ibis,Eudocimus albus_White Ibis,0.50
+419,original_zero_shot,Empidonax traillii,Willow Flycatcher,Empidonax traillii_Willow Flycatcher,0.50
+420,original_zero_shot,Motacilla cinerea,Gray Wagtail,Motacilla cinerea_Gray Wagtail,0.50
+421,original_zero_shot,Corvus cornix,Hooded Crow,Corvus cornix_Hooded Crow,0.50
+422,original_zero_shot,Acrocephalus melanopogon,Moustached Warbler,Acrocephalus melanopogon_Moustached Warbler,0.50
+423,original_zero_shot,Campylorhynchus brunneicapillus,Cactus Wren,Campylorhynchus brunneicapillus_Cactus Wren,0.50
+424,original_zero_shot,Falco naumanni,Lesser Kestrel,Falco naumanni_Lesser Kestrel,0.50
+425,original_zero_shot,Larus californicus,California Gull,Larus californicus_California Gull,0.50
+426,original_zero_shot,Passerina caerulea,Blue Grosbeak,Passerina caerulea_Blue Grosbeak,0.50
+427,original_zero_shot,Charadrius nivosus,Snowy Plover,Charadrius nivosus_Snowy Plover,0.50
+428,original_zero_shot,Turdus iliacus,Redwing,Turdus iliacus_Redwing,0.50
+429,original_zero_shot,Pyrrhocorax graculus,Yellow-billed Chough,Pyrrhocorax graculus_Yellow-billed Chough,0.50
+430,original_zero_shot,Oenanthe finschii,Finsch's Wheatear,Oenanthe finschii_Finsch's Wheatear,0.50
+431,original_zero_shot,Trogon elegans,Elegant Trogon,Trogon elegans_Elegant Trogon,0.50
+432,original_zero_shot,Nucifraga caryocatactes,Eurasian Nutcracker,Nucifraga caryocatactes_Eurasian Nutcracker,0.50
+433,original_zero_shot,Oreothlypis luciae,Lucy's Warbler,Oreothlypis luciae_Lucy's Warbler,0.50
+434,original_zero_shot,Callipepla gambelii,Gambel's Quail,Callipepla gambelii_Gambel's Quail,0.50
+435,original_zero_shot,Phylloscopus sibilatrix,Wood Warbler,Phylloscopus sibilatrix_Wood Warbler,0.50
+436,original_zero_shot,Passer moabiticus,Dead Sea Sparrow,Passer moabiticus_Dead Sea Sparrow,0.50
+437,original_zero_shot,Phalacrocorax auritus,Double-crested Cormorant,Phalacrocorax auritus_Double-crested Cormorant,0.50
+438,original_zero_shot,Lullula arborea,Wood Lark,Lullula arborea_Wood Lark,0.50
+439,original_zero_shot,Tichodroma muraria,Wallcreeper,Tichodroma muraria_Wallcreeper,0.50
+440,original_zero_shot,Calidris himantopus,Stilt Sandpiper,Calidris himantopus_Stilt Sandpiper,0.50
+441,original_zero_shot,Circus pygargus,Montagu's Harrier,Circus pygargus_Montagu's Harrier,0.50
+442,original_zero_shot,Phylloscopus collybita,Common Chiffchaff,Phylloscopus collybita_Common Chiffchaff,0.50
+443,original_zero_shot,Sturnus unicolor,Spotless Starling,Sturnus unicolor_Spotless Starling,0.50
+444,original_zero_shot,Phoenicurus phoenicurus,Common Redstart,Phoenicurus phoenicurus_Common Redstart,0.50
+445,original_zero_shot,Ficedula hypoleuca,European Pied Flycatcher,Ficedula hypoleuca_European Pied Flycatcher,0.50
+446,original_zero_shot,Gymnorhinus cyanocephalus,Pinyon Jay,Gymnorhinus cyanocephalus_Pinyon Jay,0.50
+447,original_zero_shot,Anthus trivialis,Tree Pipit,Anthus trivialis_Tree Pipit,0.50
+448,original_zero_shot,Aythya nyroca,Ferruginous Duck,Aythya nyroca_Ferruginous Duck,0.50
+449,original_zero_shot,Tyrannus melancholicus,Tropical Kingbird,Tyrannus melancholicus_Tropical Kingbird,0.50
+450,original_zero_shot,Monticola saxatilis,Rufous-tailed Rock-Thrush,Monticola saxatilis_Rufous-tailed Rock-Thrush,0.50
+451,original_zero_shot,Gallinago gallinago,Common Snipe,Gallinago gallinago_Common Snipe,0.50
+452,original_zero_shot,Asio otus,Long-eared Owl,Asio otus_Long-eared Owl,0.50
+453,original_zero_shot,Baeolophus atricristatus,Black-crested Titmouse,Baeolophus atricristatus_Black-crested Titmouse,0.50
+454,original_zero_shot,Haemorhous cassinii,Cassin's Finch,Haemorhous cassinii_Cassin's Finch,0.50
+455,original_zero_shot,Psiloscops flammeolus,Flammulated Owl,Psiloscops flammeolus_Flammulated Owl,0.50
+456,original_zero_shot,Glaucidium gnoma,Northern Pygmy-Owl,Glaucidium gnoma_Northern Pygmy-Owl,0.50
+457,original_zero_shot,Ardea alba,Great Egret,Ardea alba_Great Egret,0.50
+458,original_zero_shot,Motacilla alba,White Wagtail,Motacilla alba_White Wagtail,0.50
+459,original_zero_shot,Aramus guarauna,Limpkin,Aramus guarauna_Limpkin,0.50
+460,original_zero_shot,Emberiza cia,Rock Bunting,Emberiza cia_Rock Bunting,0.50
+461,original_zero_shot,Vireo solitarius,Blue-headed Vireo,Vireo solitarius_Blue-headed Vireo,0.50
+462,original_zero_shot,Thryomanes bewickii,Bewick's Wren,Thryomanes bewickii_Bewick's Wren,0.50
+463,original_zero_shot,Tringa glareola,Wood Sandpiper,Tringa glareola_Wood Sandpiper,0.50
+464,original_zero_shot,Oreortyx pictus,Mountain Quail,Oreortyx pictus_Mountain Quail,0.50
+465,original_zero_shot,Oenanthe deserti,Desert Wheatear,Oenanthe deserti_Desert Wheatear,0.50
+466,original_zero_shot,Oreothlypis ruficapilla,Nashville Warbler,Oreothlypis ruficapilla_Nashville Warbler,0.50
+467,original_zero_shot,Ardea herodias,Great Blue Heron,Ardea herodias_Great Blue Heron,0.50
+468,original_zero_shot,Acrocephalus dumetorum,Blyth's Reed Warbler,Acrocephalus dumetorum_Blyth's Reed Warbler,0.50
+469,original_zero_shot,Gavia arctica,Arctic Loon,Gavia arctica_Arctic Loon,0.50
+470,original_zero_shot,Melanerpes aurifrons,Golden-fronted Woodpecker,Melanerpes aurifrons_Golden-fronted Woodpecker,0.50
+471,original_zero_shot,Ammomanes cinctura,Bar-tailed Lark,Ammomanes cinctura_Bar-tailed Lark,0.50
+472,original_zero_shot,Ammodramus savannarum,Grasshopper Sparrow,Ammodramus savannarum_Grasshopper Sparrow,0.50
+473,original_zero_shot,Elanoides forficatus,Swallow-tailed Kite,Elanoides forficatus_Swallow-tailed Kite,0.50
+474,original_zero_shot,Calidris minuta,Little Stint,Calidris minuta_Little Stint,0.50
+475,original_zero_shot,Larus heermanni,Heermann's Gull,Larus heermanni_Heermann's Gull,0.50
+476,original_zero_shot,Streptopelia senegalensis,Laughing Dove,Streptopelia senegalensis_Laughing Dove,0.50
+477,original_zero_shot,Oenanthe leucopyga,White-crowned Wheatear,Oenanthe leucopyga_White-crowned Wheatear,0.50
+478,original_zero_shot,Puffinus puffinus,Manx Shearwater,Puffinus puffinus_Manx Shearwater,0.50
+479,original_zero_shot,Arremonops rufivirgatus,Olive Sparrow,Arremonops rufivirgatus_Olive Sparrow,0.50
+480,original_zero_shot,Himantopus mexicanus,Black-necked Stilt,Himantopus mexicanus_Black-necked Stilt,0.50
+481,original_zero_shot,Calonectris diomedea,Cory's Shearwater,Calonectris diomedea_Cory's Shearwater,0.50
+482,original_zero_shot,Icterus galbula,Baltimore Oriole,Icterus galbula_Baltimore Oriole,0.50
+483,original_zero_shot,Haematopus palliatus,American Oystercatcher,Haematopus palliatus_American Oystercatcher,0.50
+484,original_zero_shot,Pitangus sulphuratus,Great Kiskadee,Pitangus sulphuratus_Great Kiskadee,0.50
+485,original_zero_shot,Strix varia,Barred Owl,Strix varia_Barred Owl,0.50
+486,original_zero_shot,Picoides arcticus,Black-backed Woodpecker,Picoides arcticus_Black-backed Woodpecker,0.50
+487,original_zero_shot,Callipepla squamata,Scaled Quail,Callipepla squamata_Scaled Quail,0.50
+488,original_zero_shot,Garrulus glandarius,Eurasian Jay,Garrulus glandarius_Eurasian Jay,0.50
+489,original_zero_shot,Phylloscopus inornatus,Yellow-browed Warbler,Phylloscopus inornatus_Yellow-browed Warbler,0.50
+490,original_zero_shot,Sayornis saya,Say's Phoebe,Sayornis saya_Say's Phoebe,0.50
+491,original_zero_shot,Tyrannus crassirostris,Thick-billed Kingbird,Tyrannus crassirostris_Thick-billed Kingbird,0.50
+492,original_zero_shot,Rallus obsoletus,Ridgway's Rail,Rallus obsoletus_Ridgway's Rail,0.50
+493,original_zero_shot,Fringilla montifringilla,Brambling,Fringilla montifringilla_Brambling,0.50
+494,original_zero_shot,Tympanuchus cupido,Greater Prairie-Chicken,Tympanuchus cupido_Greater Prairie-Chicken,0.50
+495,original_zero_shot,Coccothraustes vespertinus,Evening Grosbeak,Coccothraustes vespertinus_Evening Grosbeak,0.50
+496,original_zero_shot,Melanerpes uropygialis,Gila Woodpecker,Melanerpes uropygialis_Gila Woodpecker,0.50
+497,original_zero_shot,Emberiza calandra,Corn Bunting,Emberiza calandra_Corn Bunting,0.50
+498,original_zero_shot,Quiscalus major,Boat-tailed Grackle,Quiscalus major_Boat-tailed Grackle,0.50
+499,original_zero_shot,Acrocephalus schoenobaenus,Sedge Warbler,Acrocephalus schoenobaenus_Sedge Warbler,0.50
+500,original_zero_shot,Accipiter cooperii,Cooper's Hawk,Accipiter cooperii_Cooper's Hawk,0.50
+501,original_zero_shot,Strix uralensis,Ural Owl,Strix uralensis_Ural Owl,0.50
+502,original_zero_shot,Dumetella carolinensis,Gray Catbird,Dumetella carolinensis_Gray Catbird,0.50
+503,original_zero_shot,Coccothraustes coccothraustes,Hawfinch,Coccothraustes coccothraustes_Hawfinch,0.50
+504,original_zero_shot,Melospiza lincolnii,Lincoln's Sparrow,Melospiza lincolnii_Lincoln's Sparrow,0.50
+505,original_zero_shot,Setophaga discolor,Prairie Warbler,Setophaga discolor_Prairie Warbler,0.50
+506,original_zero_shot,Turdus viscivorus,Mistle Thrush,Turdus viscivorus_Mistle Thrush,0.50
+507,original_zero_shot,Cisticola juncidis,Zitting Cisticola,Cisticola juncidis_Zitting Cisticola,0.50
+508,original_zero_shot,Gallinula galeata,Common Gallinule,Gallinula galeata_Common Gallinule,0.50
+509,original_zero_shot,Charadrius morinellus,Eurasian Dotterel,Charadrius morinellus_Eurasian Dotterel,0.50
+510,original_zero_shot,Calypte anna,Anna's Hummingbird,Calypte anna_Anna's Hummingbird,0.50
+511,original_zero_shot,Cuculus canorus,Common Cuckoo,Cuculus canorus_Common Cuckoo,0.50
+512,original_zero_shot,Vireo griseus,White-eyed Vireo,Vireo griseus_White-eyed Vireo,0.50
+513,original_zero_shot,Aegolius funereus,Boreal Owl,Aegolius funereus_Boreal Owl,0.50
+514,original_zero_shot,Empidonax wrightii,Gray Flycatcher,Empidonax wrightii_Gray Flycatcher,0.50
+515,original_zero_shot,Podiceps auritus,Horned Grebe,Podiceps auritus_Horned Grebe,0.50
+516,original_zero_shot,Spizella passerina,Chipping Sparrow,Spizella passerina_Chipping Sparrow,0.50
+517,original_zero_shot,Emberiza hortulana,Ortolan Bunting,Emberiza hortulana_Ortolan Bunting,0.50
+518,original_zero_shot,Hirundo rustica,Barn Swallow,Hirundo rustica_Barn Swallow,0.50
+519,original_zero_shot,Mergus serrator,Red-breasted Merganser,Mergus serrator_Red-breasted Merganser,0.50
+520,original_zero_shot,Toxostoma redivivum,California Thrasher,Toxostoma redivivum_California Thrasher,0.50
+521,original_zero_shot,Centrocercus urophasianus,Greater Sage-Grouse,Centrocercus urophasianus_Greater Sage-Grouse,0.50
+522,original_zero_shot,Picus viridis,Eurasian Green Woodpecker,Picus viridis_Eurasian Green Woodpecker,0.50
+523,original_zero_shot,Ardea cinerea,Gray Heron,Ardea cinerea_Gray Heron,0.50
+524,original_zero_shot,Mniotilta varia,Black-and-white Warbler,Mniotilta varia_Black-and-white Warbler,0.50
+525,original_zero_shot,Anthus petrosus,Rock Pipit,Anthus petrosus_Rock Pipit,0.50
+526,original_zero_shot,Parkesia noveboracensis,Northern Waterthrush,Parkesia noveboracensis_Northern Waterthrush,0.50
+527,original_zero_shot,Corvus ruficollis,Brown-necked Raven,Corvus ruficollis_Brown-necked Raven,0.50
+528,original_zero_shot,Serinus pusillus,Fire-fronted Serin,Serinus pusillus_Fire-fronted Serin,0.50
+529,original_zero_shot,Hydrobates pelagicus,European Storm-Petrel,Hydrobates pelagicus_European Storm-Petrel,0.50
+530,original_zero_shot,Calcarius lapponicus,Lapland Longspur,Calcarius lapponicus_Lapland Longspur,0.50
+531,original_zero_shot,Antigone canadensis,Sandhill Crane,Antigone canadensis_Sandhill Crane,0.50
+532,original_zero_shot,Porphyrio martinica,Purple Gallinule,Porphyrio martinica_Purple Gallinule,0.50
+533,original_zero_shot,Icterus gularis,Altamira Oriole,Icterus gularis_Altamira Oriole,0.50
+534,original_zero_shot,Cardellina rubrifrons,Red-faced Warbler,Cardellina rubrifrons_Red-faced Warbler,0.50
+535,original_zero_shot,Contopus sordidulus,Western Wood-Pewee,Contopus sordidulus_Western Wood-Pewee,0.50
+536,original_zero_shot,Chordeiles minor,Common Nighthawk,Chordeiles minor_Common Nighthawk,0.50
+537,original_zero_shot,Larus occidentalis,Western Gull,Larus occidentalis_Western Gull,0.50
+538,original_zero_shot,Baeolophus ridgwayi,Juniper Titmouse,Baeolophus ridgwayi_Juniper Titmouse,0.50
+539,original_zero_shot,Setophaga magnolia,Magnolia Warbler,Setophaga magnolia_Magnolia Warbler,0.50
+540,original_zero_shot,Loxia pytyopsittacus,Parrot Crossbill,Loxia pytyopsittacus_Parrot Crossbill,0.50
+541,original_zero_shot,Merops persicus,Blue-cheeked Bee-eater,Merops persicus_Blue-cheeked Bee-eater,0.50
+542,original_zero_shot,Oceanodroma leucorhoa,Leach's Storm-Petrel,Oceanodroma leucorhoa_Leach's Storm-Petrel,0.50
+543,original_zero_shot,Branta bernicla,Brant,Branta bernicla_Brant,0.50
+544,original_zero_shot,Baeolophus inornatus,Oak Titmouse,Baeolophus inornatus_Oak Titmouse,0.50
+545,original_zero_shot,Lanius nubicus,Masked Shrike,Lanius nubicus_Masked Shrike,0.50
+546,original_zero_shot,Pinicola enucleator,Pine Grosbeak,Pinicola enucleator_Pine Grosbeak,0.50
+547,original_zero_shot,Anser canagicus,Emperor Goose,Anser canagicus_Emperor Goose,0.50
+548,original_zero_shot,Phylloscopus fuscatus,Dusky Warbler,Phylloscopus fuscatus_Dusky Warbler,0.50
+549,original_zero_shot,Tarsiger cyanurus,Red-flanked Bluetail,Tarsiger cyanurus_Red-flanked Bluetail,0.50
+550,original_zero_shot,Falco peregrinus,Peregrine Falcon,Falco peregrinus_Peregrine Falcon,0.50
+551,original_zero_shot,Columbina passerina,Common Ground-Dove,Columbina passerina_Common Ground-Dove,0.50
+552,original_zero_shot,Ammospiza maritima,Seaside Sparrow,Ammospiza maritima_Seaside Sparrow,0.50
+553,original_zero_shot,Empidonax fulvifrons,Buff-breasted Flycatcher,Empidonax fulvifrons_Buff-breasted Flycatcher,0.50
+554,original_zero_shot,Carpospiza brachydactyla,Pale Rockfinch,Carpospiza brachydactyla_Pale Rockfinch,0.50
+555,original_zero_shot,Zonotrichia querula,Harris's Sparrow,Zonotrichia querula_Harris's Sparrow,0.50
+556,original_zero_shot,Sitta canadensis,Red-breasted Nuthatch,Sitta canadensis_Red-breasted Nuthatch,0.50
+557,original_zero_shot,Spatula clypeata,Northern Shoveler,Spatula clypeata_Northern Shoveler,0.50
+558,original_zero_shot,Colinus virginianus,Northern Bobwhite,Colinus virginianus_Northern Bobwhite,0.50
+559,original_zero_shot,Icterus cucullatus,Hooded Oriole,Icterus cucullatus_Hooded Oriole,0.50
+560,original_zero_shot,Phylloscopus ibericus,Iberian Chiffchaff,Phylloscopus ibericus_Iberian Chiffchaff,0.50
+561,original_zero_shot,Delichon urbicum,Common House-Martin,Delichon urbicum_Common House-Martin,0.50
+562,original_zero_shot,Emberiza melanocephala,Black-headed Bunting,Emberiza melanocephala_Black-headed Bunting,0.50
+563,original_zero_shot,Tyrannus vociferans,Cassin's Kingbird,Tyrannus vociferans_Cassin's Kingbird,0.50
+564,original_zero_shot,Buteogallus anthracinus,Common Black Hawk,Buteogallus anthracinus_Common Black Hawk,0.50
+565,original_zero_shot,Botaurus stellaris,Great Bittern,Botaurus stellaris_Great Bittern,0.50
+566,original_zero_shot,Tringa flavipes,Lesser Yellowlegs,Tringa flavipes_Lesser Yellowlegs,0.50
+567,original_zero_shot,Anas crecca,Green-winged Teal,Anas crecca_Green-winged Teal,0.50
+568,original_zero_shot,Empidonax occidentalis,Cordilleran Flycatcher,Empidonax occidentalis_Cordilleran Flycatcher,0.50
+569,original_zero_shot,Toxostoma lecontei,LeConte's Thrasher,Toxostoma lecontei_LeConte's Thrasher,0.50
+570,original_zero_shot,Buteo jamaicensis,Red-tailed Hawk,Buteo jamaicensis_Red-tailed Hawk,0.50
+571,original_zero_shot,Lanius isabellinus,Isabelline Shrike,Lanius isabellinus_Isabelline Shrike,0.50
+572,original_zero_shot,Gavia stellata,Red-throated Loon,Gavia stellata_Red-throated Loon,0.50
+573,original_zero_shot,Passer hispaniolensis,Spanish Sparrow,Passer hispaniolensis_Spanish Sparrow,0.50
+574,original_zero_shot,Dryobates scalaris,Ladder-backed Woodpecker,Dryobates scalaris_Ladder-backed Woodpecker,0.50
+575,original_zero_shot,Aechmophorus occidentalis,Western Grebe,Aechmophorus occidentalis_Western Grebe,0.50
+576,original_zero_shot,Setophaga cerulea,Cerulean Warbler,Setophaga cerulea_Cerulean Warbler,0.50
+577,original_zero_shot,Saxicola rubicola,European Stonechat,Saxicola rubicola_European Stonechat,0.50
+578,original_zero_shot,Setophaga castanea,Bay-breasted Warbler,Setophaga castanea_Bay-breasted Warbler,0.50
+579,original_zero_shot,Glareola nordmanni,Black-winged Pratincole,Glareola nordmanni_Black-winged Pratincole,0.50
+580,original_zero_shot,Meleagris gallopavo,Wild Turkey,Meleagris gallopavo_Wild Turkey,0.50
+581,original_zero_shot,Parabuteo unicinctus,Harris's Hawk,Parabuteo unicinctus_Harris's Hawk,0.50
+582,original_zero_shot,Alectoris rufa,Red-legged Partridge,Alectoris rufa_Red-legged Partridge,0.50
+583,original_zero_shot,Callipepla californica,California Quail,Callipepla californica_California Quail,0.50
+584,original_zero_shot,Circus aeruginosus,Eurasian Marsh-Harrier,Circus aeruginosus_Eurasian Marsh-Harrier,0.50
+585,original_zero_shot,Setophaga tigrina,Cape May Warbler,Setophaga tigrina_Cape May Warbler,0.50
+586,original_zero_shot,Phoenicurus moussieri,Moussier's Redstart,Phoenicurus moussieri_Moussier's Redstart,0.50
+587,original_zero_shot,Vireo altiloquus,Black-whiskered Vireo,Vireo altiloquus_Black-whiskered Vireo,0.50
+588,original_zero_shot,Spizella atrogularis,Black-chinned Sparrow,Spizella atrogularis_Black-chinned Sparrow,0.50
+589,original_zero_shot,Calcarius ornatus,Chestnut-collared Longspur,Calcarius ornatus_Chestnut-collared Longspur,0.50
+590,original_zero_shot,Crex crex,Corn Crake,Crex crex_Corn Crake,0.50
+591,original_zero_shot,Onychoprion aleuticus,Aleutian Tern,Onychoprion aleuticus_Aleutian Tern,0.50
+592,original_zero_shot,Myiarchus tyrannulus,Brown-crested Flycatcher,Myiarchus tyrannulus_Brown-crested Flycatcher,0.50
+593,original_zero_shot,Vanellus spinosus,Spur-winged Lapwing,Vanellus spinosus_Spur-winged Lapwing,0.50
+594,original_zero_shot,Actitis hypoleucos,Common Sandpiper,Actitis hypoleucos_Common Sandpiper,0.50
+595,original_zero_shot,Branta canadensis,Canada Goose,Branta canadensis_Canada Goose,0.50
+596,original_zero_shot,Dryocopus martius,Black Woodpecker,Dryocopus martius_Black Woodpecker,0.50
+597,original_zero_shot,Clangula hyemalis,Long-tailed Duck,Clangula hyemalis_Long-tailed Duck,0.50
+598,original_zero_shot,Phalacrocorax brasilianus,Neotropic Cormorant,Phalacrocorax brasilianus_Neotropic Cormorant,0.50
+599,original_zero_shot,Tyrannus tyrannus,Eastern Kingbird,Tyrannus tyrannus_Eastern Kingbird,0.50
+600,original_zero_shot,Cardinalis sinuatus,Pyrrhuloxia,Cardinalis sinuatus_Pyrrhuloxia,0.50
+601,original_zero_shot,Baeolophus bicolor,Tufted Titmouse,Baeolophus bicolor_Tufted Titmouse,0.50
+602,original_zero_shot,Poecile montanus,Willow Tit,Poecile montanus_Willow Tit,0.50
+603,original_zero_shot,Calypte costae,Costa's Hummingbird,Calypte costae_Costa's Hummingbird,0.50
+604,original_zero_shot,Cygnus olor,Mute Swan,Cygnus olor_Mute Swan,0.50
+605,original_zero_shot,Pycnonotus xanthopygos,White-spectacled Bulbul,Pycnonotus xanthopygos_White-spectacled Bulbul,0.50
+606,original_zero_shot,Podiceps cristatus,Great Crested Grebe,Podiceps cristatus_Great Crested Grebe,0.50
+607,original_zero_shot,Poecile palustris,Marsh Tit,Poecile palustris_Marsh Tit,0.50
+608,original_zero_shot,Pica nuttalli,Yellow-billed Magpie,Pica nuttalli_Yellow-billed Magpie,0.50
+609,original_zero_shot,Setophaga coronata,Yellow-rumped Warbler,Setophaga coronata_Yellow-rumped Warbler,0.50
+610,original_zero_shot,Luscinia svecica,Bluethroat,Luscinia svecica_Bluethroat,0.50
+611,original_zero_shot,Vireo huttoni,Hutton's Vireo,Vireo huttoni_Hutton's Vireo,0.50
+612,original_zero_shot,Ammospiza leconteii,LeConte's Sparrow,Ammospiza leconteii_LeConte's Sparrow,0.50
+613,original_zero_shot,Tachycineta thalassina,Violet-green Swallow,Tachycineta thalassina_Violet-green Swallow,0.50
+614,original_zero_shot,Calidris alpina,Dunlin,Calidris alpina_Dunlin,0.50
+615,original_zero_shot,Psilorhinus morio,Brown Jay,Psilorhinus morio_Brown Jay,0.50
+616,original_zero_shot,Calidris pusilla,Semipalmated Sandpiper,Calidris pusilla_Semipalmated Sandpiper,0.50
+617,original_zero_shot,Acrocephalus scirpaceus,Eurasian Reed Warbler,Acrocephalus scirpaceus_Eurasian Reed Warbler,0.50
+618,original_zero_shot,Loxia leucoptera,White-winged Crossbill,Loxia leucoptera_White-winged Crossbill,0.50
+619,original_zero_shot,Amphispiza bilineata,Black-throated Sparrow,Amphispiza bilineata_Black-throated Sparrow,0.50
+620,original_zero_shot,Vanellus indicus,Red-wattled Lapwing,Vanellus indicus_Red-wattled Lapwing,0.50
+621,original_zero_shot,Sitta pusilla,Brown-headed Nuthatch,Sitta pusilla_Brown-headed Nuthatch,0.50
+622,original_zero_shot,Luscinia luscinia,Thrush Nightingale,Luscinia luscinia_Thrush Nightingale,0.50
+623,original_zero_shot,Pica pica,Eurasian Magpie,Pica pica_Eurasian Magpie,0.50
+624,original_zero_shot,Larus delawarensis,Ring-billed Gull,Larus delawarensis_Ring-billed Gull,0.50
+625,original_zero_shot,Corvus ossifragus,Fish Crow,Corvus ossifragus_Fish Crow,0.50
+626,original_zero_shot,Poecile cinctus,Gray-headed Chickadee,Poecile cinctus_Gray-headed Chickadee,0.50
+627,original_zero_shot,Sterna forsteri,Forster's Tern,Sterna forsteri_Forster's Tern,0.50
+628,original_zero_shot,Charadrius vociferus,Killdeer,Charadrius vociferus_Killdeer,0.50
+629,original_zero_shot,Aimophila ruficeps,Rufous-crowned Sparrow,Aimophila ruficeps_Rufous-crowned Sparrow,0.50
+630,original_zero_shot,Spizella breweri,Brewer's Sparrow,Spizella breweri_Brewer's Sparrow,0.50
+631,original_zero_shot,Hylocichla mustelina,Wood Thrush,Hylocichla mustelina_Wood Thrush,0.50
+632,original_zero_shot,Turdus migratorius,American Robin,Turdus migratorius_American Robin,0.50
+633,original_zero_shot,Falcipennis canadensis,Spruce Grouse,Falcipennis canadensis_Spruce Grouse,0.50
+634,original_zero_shot,Chlidonias leucopterus,White-winged Tern,Chlidonias leucopterus_White-winged Tern,0.50
+635,original_zero_shot,Alectoris graeca,Rock Partridge,Alectoris graeca_Rock Partridge,0.50
+636,original_zero_shot,Tyrannus verticalis,Western Kingbird,Tyrannus verticalis_Western Kingbird,0.50
+637,original_zero_shot,Ficedula albicollis,Collared Flycatcher,Ficedula albicollis_Collared Flycatcher,0.50
+638,original_zero_shot,Lanius excubitor,Great Gray Shrike,Lanius excubitor_Great Gray Shrike,0.50
+639,original_zero_shot,Tyto alba,Barn Owl,Tyto alba_Barn Owl,0.50
+640,original_zero_shot,Sylvia nisoria,Barred Warbler,Sylvia nisoria_Barred Warbler,0.50
+641,original_zero_shot,Plectrophenax nivalis,Snow Bunting,Plectrophenax nivalis_Snow Bunting,0.50
+642,original_zero_shot,Poecile sclateri,Mexican Chickadee,Poecile sclateri_Mexican Chickadee,0.50
+643,original_zero_shot,Carpodacus erythrinus,Common Rosefinch,Carpodacus erythrinus_Common Rosefinch,0.50
+644,original_zero_shot,Spinus psaltria,Lesser Goldfinch,Spinus psaltria_Lesser Goldfinch,0.50
+645,original_zero_shot,Stelgidopteryx serripennis,Northern Rough-winged Swallow,Stelgidopteryx serripennis_Northern Rough-winged Swallow,0.50
+646,original_zero_shot,Linaria flavirostris,Twite,Linaria flavirostris_Twite,0.50
+647,original_zero_shot,Uria aalge,Common Murre,Uria aalge_Common Murre,0.50
+648,original_zero_shot,Troglodytes hiemalis,Winter Wren,Troglodytes hiemalis_Winter Wren,0.50
+649,original_zero_shot,Numenius arquata,Eurasian Curlew,Numenius arquata_Eurasian Curlew,0.50
+650,original_zero_shot,Uria lomvia,Thick-billed Murre,Uria lomvia_Thick-billed Murre,0.50
+651,original_zero_shot,Calidris fuscicollis,White-rumped Sandpiper,Calidris fuscicollis_White-rumped Sandpiper,0.50
+652,original_zero_shot,Platalea ajaja,Roseate Spoonbill,Platalea ajaja_Roseate Spoonbill,0.50
+653,original_zero_shot,Calandrella brachydactyla,Greater Short-toed Lark,Calandrella brachydactyla_Greater Short-toed Lark,0.50
+654,original_zero_shot,Phylloscopus sindianus,Mountain Chiffchaff,Phylloscopus sindianus_Mountain Chiffchaff,0.50
+655,original_zero_shot,Piranga rubra,Summer Tanager,Piranga rubra_Summer Tanager,0.50
+656,original_zero_shot,Ptyonoprogne rupestris,Eurasian Crag-Martin,Ptyonoprogne rupestris_Eurasian Crag-Martin,0.50
+657,original_zero_shot,Aythya fuligula,Tufted Duck,Aythya fuligula_Tufted Duck,0.50
+658,original_zero_shot,Charadrius wilsonia,Wilson's Plover,Charadrius wilsonia_Wilson's Plover,0.50
+659,original_zero_shot,Picoides dorsalis,American Three-toed Woodpecker,Picoides dorsalis_American Three-toed Woodpecker,0.50
+660,original_zero_shot,Asio flammeus,Short-eared Owl,Asio flammeus_Short-eared Owl,0.50
+661,original_zero_shot,Haliaeetus albicilla,White-tailed Eagle,Haliaeetus albicilla_White-tailed Eagle,0.50
+662,original_zero_shot,Haemorhous purpureus,Purple Finch,Haemorhous purpureus_Purple Finch,0.50
+663,original_zero_shot,Pterocles coronatus,Crowned Sandgrouse,Pterocles coronatus_Crowned Sandgrouse,0.50
+664,original_zero_shot,Oena capensis,Namaqua Dove,Oena capensis_Namaqua Dove,0.50
+665,original_zero_shot,Rhodostethia rosea,Ross's Gull,Rhodostethia rosea_Ross's Gull,0.50
+666,original_zero_shot,Bartramia longicauda,Upland Sandpiper,Bartramia longicauda_Upland Sandpiper,0.50
+667,original_zero_shot,Anser albifrons,Greater White-fronted Goose,Anser albifrons_Greater White-fronted Goose,0.50
+668,original_zero_shot,Calamospiza melanocorys,Lark Bunting,Calamospiza melanocorys_Lark Bunting,0.50
+669,original_zero_shot,Geothlypis philadelphia,Mourning Warbler,Geothlypis philadelphia_Mourning Warbler,0.50
+670,original_zero_shot,Troglodytes troglodytes,Eurasian Wren,Troglodytes troglodytes_Eurasian Wren,0.50
+671,original_zero_shot,Cepphus grylle,Black Guillemot,Cepphus grylle_Black Guillemot,0.50
+672,original_zero_shot,Phoebastria nigripes,Black-footed Albatross,Phoebastria nigripes_Black-footed Albatross,0.50
+673,original_zero_shot,Turdoides fulva,Fulvous Chatterer,Turdoides fulva_Fulvous Chatterer,0.50
+674,original_zero_shot,Pyrrhocorax pyrrhocorax,Red-billed Chough,Pyrrhocorax pyrrhocorax_Red-billed Chough,0.50
+675,original_zero_shot,Acrocephalus agricola,Paddyfield Warbler,Acrocephalus agricola_Paddyfield Warbler,0.50
+676,original_zero_shot,Setophaga caerulescens,Black-throated Blue Warbler,Setophaga caerulescens_Black-throated Blue Warbler,0.50
+677,original_zero_shot,Alectoris chukar,Chukar,Alectoris chukar_Chukar,0.50
+678,original_zero_shot,Iduna pallida,Eastern Olivaceous Warbler,Iduna pallida_Eastern Olivaceous Warbler,0.50
+679,original_zero_shot,Phalacrocorax carbo,Great Cormorant,Phalacrocorax carbo_Great Cormorant,0.50
+680,original_zero_shot,Clanga clanga,Greater Spotted Eagle,Clanga clanga_Greater Spotted Eagle,0.50
+681,original_zero_shot,Cyrtonyx montezumae,Montezuma Quail,Cyrtonyx montezumae_Montezuma Quail,0.50
+682,original_zero_shot,Psittacara holochlorus,Green Parakeet,Psittacara holochlorus_Green Parakeet,0.50
+683,original_zero_shot,Myiodynastes luteiventris,Sulphur-bellied Flycatcher,Myiodynastes luteiventris_Sulphur-bellied Flycatcher,0.50
+684,original_zero_shot,Passerculus sandwichensis,Savannah Sparrow,Passerculus sandwichensis_Savannah Sparrow,0.50
+685,original_zero_shot,Sylvia crassirostris,Eastern Orphean Warbler,Sylvia crassirostris_Eastern Orphean Warbler,0.50
+686,original_zero_shot,Poecile gambeli,Mountain Chickadee,Poecile gambeli_Mountain Chickadee,0.50
+687,original_zero_shot,Colaptes chrysoides,Gilded Flicker,Colaptes chrysoides_Gilded Flicker,0.50
+688,original_zero_shot,Oxyura jamaicensis,Ruddy Duck,Oxyura jamaicensis_Ruddy Duck,0.50
+689,original_zero_shot,Cygnus atratus,Black Swan,Cygnus atratus_Black Swan,0.50
+690,original_zero_shot,Haematopus bachmani,Black Oystercatcher,Haematopus bachmani_Black Oystercatcher,0.50
+691,original_zero_shot,Butorides virescens,Green Heron,Butorides virescens_Green Heron,0.50
+692,original_zero_shot,Saxicola maurus,Siberian Stonechat,Saxicola maurus_Siberian Stonechat,0.50
+693,original_zero_shot,Petrochelidon fulva,Cave Swallow,Petrochelidon fulva_Cave Swallow,0.50
+694,original_zero_shot,Sylvia atricapilla,Eurasian Blackcap,Sylvia atricapilla_Eurasian Blackcap,0.50
+695,original_zero_shot,Milvus milvus,Red Kite,Milvus milvus_Red Kite,0.50
+696,original_zero_shot,Sayornis nigricans,Black Phoebe,Sayornis nigricans_Black Phoebe,0.50
+697,original_zero_shot,Laterallus jamaicensis,Black Rail,Laterallus jamaicensis_Black Rail,0.50
+698,original_zero_shot,Buteo rufinus,Long-legged Buzzard,Buteo rufinus_Long-legged Buzzard,0.50
+699,original_zero_shot,Buteo platypterus,Broad-winged Hawk,Buteo platypterus_Broad-winged Hawk,0.50
+700,original_zero_shot,Poecile hudsonicus,Boreal Chickadee,Poecile hudsonicus_Boreal Chickadee,0.50
+701,original_zero_shot,Tringa erythropus,Spotted Redshank,Tringa erythropus_Spotted Redshank,0.50
+702,original_zero_shot,Prunella collaris,Alpine Accentor,Prunella collaris_Alpine Accentor,0.50
+703,original_zero_shot,Phoenicopterus roseus,Greater Flamingo,Phoenicopterus roseus_Greater Flamingo,0.50
+704,original_zero_shot,Empidonax flaviventris,Yellow-bellied Flycatcher,Empidonax flaviventris_Yellow-bellied Flycatcher,0.50
+705,original_zero_shot,Lagopus lagopus,Willow Ptarmigan,Lagopus lagopus_Willow Ptarmigan,0.50
+706,original_zero_shot,Egretta caerulea,Little Blue Heron,Egretta caerulea_Little Blue Heron,0.50
+707,original_zero_shot,Cardellina canadensis,Canada Warbler,Cardellina canadensis_Canada Warbler,0.50
+708,original_zero_shot,Botaurus lentiginosus,American Bittern,Botaurus lentiginosus_American Bittern,0.50
+709,original_zero_shot,Spinus pinus,Pine Siskin,Spinus pinus_Pine Siskin,0.50
+710,original_zero_shot,Otus brucei,Pallid Scops-Owl,Otus brucei_Pallid Scops-Owl,0.50
+711,original_zero_shot,Buteo lagopus,Rough-legged Hawk,Buteo lagopus_Rough-legged Hawk,0.50
+712,original_zero_shot,Tympanuchus phasianellus,Sharp-tailed Grouse,Tympanuchus phasianellus_Sharp-tailed Grouse,0.50
+713,original_zero_shot,Catharus fuscescens,Veery,Catharus fuscescens_Veery,0.50
+714,original_zero_shot,Otus scops,Eurasian Scops-Owl,Otus scops_Eurasian Scops-Owl,0.50
+715,original_zero_shot,Corvus corone,Carrion Crow,Corvus corone_Carrion Crow,0.50
+716,original_zero_shot,Cyanocitta cristata,Blue Jay,Cyanocitta cristata_Blue Jay,0.50
+717,original_zero_shot,Gelochelidon nilotica,Gull-billed Tern,Gelochelidon nilotica_Gull-billed Tern,0.50
+718,original_zero_shot,Bonasa umbellus,Ruffed Grouse,Bonasa umbellus_Ruffed Grouse,0.50
+719,original_zero_shot,Caprimulgus europaeus,Eurasian Nightjar,Caprimulgus europaeus_Eurasian Nightjar,0.50
+720,original_zero_shot,Cecropis daurica,Red-rumped Swallow,Cecropis daurica_Red-rumped Swallow,0.50
+721,original_zero_shot,Ichthyaetus audouinii,Audouin's Gull,Ichthyaetus audouinii_Audouin's Gull,0.50
+722,original_zero_shot,Circus hudsonius,Northern Harrier,Circus hudsonius_Northern Harrier,0.50
+723,original_zero_shot,Haematopus ostralegus,Eurasian Oystercatcher,Haematopus ostralegus_Eurasian Oystercatcher,0.50
+724,original_zero_shot,Sialia currucoides,Mountain Bluebird,Sialia currucoides_Mountain Bluebird,0.50
+725,original_zero_shot,Quiscalus mexicanus,Great-tailed Grackle,Quiscalus mexicanus_Great-tailed Grackle,0.50
+726,original_zero_shot,Rallus crepitans,Clapper Rail,Rallus crepitans_Clapper Rail,0.50
+727,original_zero_shot,Turdus merula,Eurasian Blackbird,Turdus merula_Eurasian Blackbird,0.50
+728,original_zero_shot,Branta leucopsis,Barnacle Goose,Branta leucopsis_Barnacle Goose,0.50
+729,original_zero_shot,Perisoreus canadensis,Canada Jay,Perisoreus canadensis_Canada Jay,0.50
+730,original_zero_shot,Geothlypis formosa,Kentucky Warbler,Geothlypis formosa_Kentucky Warbler,0.50
+731,original_zero_shot,Rissa tridactyla,Black-legged Kittiwake,Rissa tridactyla_Black-legged Kittiwake,0.50
+732,original_zero_shot,Rallus limicola,Virginia Rail,Rallus limicola_Virginia Rail,0.50
+733,original_zero_shot,Tchagra senegalus,Black-crowned Tchagra,Tchagra senegalus_Black-crowned Tchagra,0.50
+734,original_zero_shot,Charadrius hiaticula,Common Ringed Plover,Charadrius hiaticula_Common Ringed Plover,0.50
+735,original_zero_shot,Petrochelidon pyrrhonota,Cliff Swallow,Petrochelidon pyrrhonota_Cliff Swallow,0.50
+736,original_zero_shot,Tetrao urogallus,Western Capercaillie,Tetrao urogallus_Western Capercaillie,0.50
+737,original_zero_shot,Setophaga palmarum,Palm Warbler,Setophaga palmarum_Palm Warbler,0.50
+738,original_zero_shot,Setophaga townsendi,Townsend's Warbler,Setophaga townsendi_Townsend's Warbler,0.50
+739,original_zero_shot,Thalasseus maximus,Royal Tern,Thalasseus maximus_Royal Tern,0.50
+740,original_zero_shot,Passerella iliaca,Fox Sparrow,Passerella iliaca_Fox Sparrow,0.50
+741,original_zero_shot,Sitta ledanti,Algerian Nuthatch,Sitta ledanti_Algerian Nuthatch,0.50
+742,original_zero_shot,Pyrocephalus rubinus,Vermilion Flycatcher,Pyrocephalus rubinus_Vermilion Flycatcher,0.50
+743,original_zero_shot,Fulmarus glacialis,Northern Fulmar,Fulmarus glacialis_Northern Fulmar,0.50
+744,original_zero_shot,Vanellus leucurus,White-tailed Lapwing,Vanellus leucurus_White-tailed Lapwing,0.50
+745,original_zero_shot,Lophophanes cristatus,Crested Tit,Lophophanes cristatus_Crested Tit,0.50
+746,original_zero_shot,Columbina inca,Inca Dove,Columbina inca_Inca Dove,0.50
+747,original_zero_shot,Setophaga nigrescens,Black-throated Gray Warbler,Setophaga nigrescens_Black-throated Gray Warbler,0.50
+748,original_zero_shot,Icteria virens,Yellow-breasted Chat,Icteria virens_Yellow-breasted Chat,0.50
+749,original_zero_shot,Limnodromus scolopaceus,Long-billed Dowitcher,Limnodromus scolopaceus_Long-billed Dowitcher,0.50
+750,original_zero_shot,Aythya marila,Greater Scaup,Aythya marila_Greater Scaup,0.50
+751,original_zero_shot,Piranga olivacea,Scarlet Tanager,Piranga olivacea_Scarlet Tanager,0.50
+752,original_zero_shot,Chloroceryle americana,Green Kingfisher,Chloroceryle americana_Green Kingfisher,0.50
+753,original_zero_shot,Sterna dougallii,Roseate Tern,Sterna dougallii_Roseate Tern,0.50
+754,original_zero_shot,Ortalis vetula,Plain Chachalaca,Ortalis vetula_Plain Chachalaca,0.50
+755,original_zero_shot,Phylloscopus proregulus,Pallas's Leaf Warbler,Phylloscopus proregulus_Pallas's Leaf Warbler,0.50
+756,original_zero_shot,Falco vespertinus,Red-footed Falcon,Falco vespertinus_Red-footed Falcon,0.50
+757,original_zero_shot,Vireo flavifrons,Yellow-throated Vireo,Vireo flavifrons_Yellow-throated Vireo,0.50
+758,original_zero_shot,Sitta tephronota,Eastern Rock Nuthatch,Sitta tephronota_Eastern Rock Nuthatch,0.50
+759,original_zero_shot,Chondestes grammacus,Lark Sparrow,Chondestes grammacus_Lark Sparrow,0.50
+760,original_zero_shot,Thryothorus ludovicianus,Carolina Wren,Thryothorus ludovicianus_Carolina Wren,0.50
+761,original_zero_shot,Pica hudsonia,Black-billed Magpie,Pica hudsonia_Black-billed Magpie,0.50
+762,original_zero_shot,Dryobates minor,Lesser Spotted Woodpecker,Dryobates minor_Lesser Spotted Woodpecker,0.50
+763,original_zero_shot,Phainopepla nitens,Phainopepla,Phainopepla nitens_Phainopepla,0.50
+764,original_zero_shot,Glaucidium passerinum,Eurasian Pygmy-Owl,Glaucidium passerinum_Eurasian Pygmy-Owl,0.50
+765,original_zero_shot,Sylvia melanocephala,Sardinian Warbler,Sylvia melanocephala_Sardinian Warbler,0.50
+766,original_zero_shot,Poecile carolinensis,Carolina Chickadee,Poecile carolinensis_Carolina Chickadee,0.50
+767,original_zero_shot,Erithacus rubecula,European Robin,Erithacus rubecula_European Robin,0.50
+768,original_zero_shot,Coccyzus americanus,Yellow-billed Cuckoo,Coccyzus americanus_Yellow-billed Cuckoo,0.50
+769,original_zero_shot,Ptyonoprogne fuligula,Rock Martin,Ptyonoprogne fuligula_Rock Martin,0.50
+770,original_zero_shot,Passerina ciris,Painted Bunting,Passerina ciris_Painted Bunting,0.50
+771,original_zero_shot,Patagioenas flavirostris,Red-billed Pigeon,Patagioenas flavirostris_Red-billed Pigeon,0.50
+772,original_zero_shot,Corvus monedula,Eurasian Jackdaw,Corvus monedula_Eurasian Jackdaw,0.50
+773,original_zero_shot,Ficedula parva,Red-breasted Flycatcher,Ficedula parva_Red-breasted Flycatcher,0.50
+774,original_zero_shot,Fulica americana,American Coot,Fulica americana_American Coot,0.50
+775,original_zero_shot,Charadrius semipalmatus,Semipalmated Plover,Charadrius semipalmatus_Semipalmated Plover,0.50
+776,original_zero_shot,Turdus pilaris,Fieldfare,Turdus pilaris_Fieldfare,0.50
+777,original_zero_shot,Setophaga dominica,Yellow-throated Warbler,Setophaga dominica_Yellow-throated Warbler,0.50
+778,original_zero_shot,Lanius minor,Lesser Gray Shrike,Lanius minor_Lesser Gray Shrike,0.50
+779,original_zero_shot,Empidonax difficilis,Pacific-slope Flycatcher,Empidonax difficilis_Pacific-slope Flycatcher,0.50
+780,original_zero_shot,Locustella lanceolata,Lanceolated Warbler,Locustella lanceolata_Lanceolated Warbler,0.50
+781,original_zero_shot,Pernis apivorus,European Honey-buzzard,Pernis apivorus_European Honey-buzzard,0.50
+782,original_zero_shot,Vireo plumbeus,Plumbeous Vireo,Vireo plumbeus_Plumbeous Vireo,0.50
+783,original_zero_shot,Toxostoma longirostre,Long-billed Thrasher,Toxostoma longirostre_Long-billed Thrasher,0.50
+784,original_zero_shot,Sylvia undata,Dartford Warbler,Sylvia undata_Dartford Warbler,0.50
+785,original_zero_shot,Passer italiae,Italian Sparrow,Passer italiae_Italian Sparrow,0.50
+786,original_zero_shot,Spinus spinus,Eurasian Siskin,Spinus spinus_Eurasian Siskin,0.50
+787,original_zero_shot,Peucaea carpalis,Rufous-winged Sparrow,Peucaea carpalis_Rufous-winged Sparrow,0.50
+788,original_zero_shot,Spatula discors,Blue-winged Teal,Spatula discors_Blue-winged Teal,0.50
+789,original_zero_shot,Montifringilla nivalis,White-winged Snowfinch,Montifringilla nivalis_White-winged Snowfinch,0.50
+790,original_zero_shot,Tympanuchus pallidicinctus,Lesser Prairie-Chicken,Tympanuchus pallidicinctus_Lesser Prairie-Chicken,0.50
+791,original_zero_shot,Nucifraga columbiana,Clark's Nutcracker,Nucifraga columbiana_Clark's Nutcracker,0.50
+792,original_zero_shot,Apus apus,Common Swift,Apus apus_Common Swift,0.50
+793,original_zero_shot,Cinclus cinclus,White-throated Dipper,Cinclus cinclus_White-throated Dipper,0.50
+794,original_zero_shot,Plegadis falcinellus,Glossy Ibis,Plegadis falcinellus_Glossy Ibis,0.50
+795,original_zero_shot,Calidris canutus,Red Knot,Calidris canutus_Red Knot,0.50
+796,original_zero_shot,Megascops asio,Eastern Screech-Owl,Megascops asio_Eastern Screech-Owl,0.50
+797,original_zero_shot,Alectoris barbara,Barbary Partridge,Alectoris barbara_Barbary Partridge,0.50
+798,original_zero_shot,Melospiza melodia,Song Sparrow,Melospiza melodia_Song Sparrow,0.50
+799,original_zero_shot,Calidris pugnax,Ruff,Calidris pugnax_Ruff,0.50
+800,original_zero_shot,Phalaropus lobatus,Red-necked Phalarope,Phalaropus lobatus_Red-necked Phalarope,0.50
+801,original_zero_shot,Sylvia borin,Garden Warbler,Sylvia borin_Garden Warbler,0.50
+802,original_zero_shot,Spiza americana,Dickcissel,Spiza americana_Dickcissel,0.50
+803,original_zero_shot,Spatula querquedula,Garganey,Spatula querquedula_Garganey,0.50
+804,original_zero_shot,Troglodytes pacificus,Pacific Wren,Troglodytes pacificus_Pacific Wren,0.50
+805,original_zero_shot,Psaltriparus minimus,Bushtit,Psaltriparus minimus_Bushtit,0.50
+806,original_zero_shot,Ardea purpurea,Purple Heron,Ardea purpurea_Purple Heron,0.50
+807,original_zero_shot,Muscicapa striata,Spotted Flycatcher,Muscicapa striata_Spotted Flycatcher,0.50
+808,original_zero_shot,Ciconia ciconia,White Stork,Ciconia ciconia_White Stork,0.50
+809,original_zero_shot,Pterocles orientalis,Black-bellied Sandgrouse,Pterocles orientalis_Black-bellied Sandgrouse,0.50
+810,original_zero_shot,Noise,Noise,Noise_Noise,0.50
+811,original_zero_shot,Piranga ludoviciana,Western Tanager,Piranga ludoviciana_Western Tanager,0.50
+812,original_zero_shot,Jynx torquilla,Eurasian Wryneck,Jynx torquilla_Eurasian Wryneck,0.50
+813,original_zero_shot,Molothrus ater,Brown-headed Cowbird,Molothrus ater_Brown-headed Cowbird,0.50
+814,original_zero_shot,Strix aluco,Tawny Owl,Strix aluco_Tawny Owl,0.50
+815,original_zero_shot,Cepphus columba,Pigeon Guillemot,Cepphus columba_Pigeon Guillemot,0.50
+816,original_zero_shot,Gallinula chloropus,Eurasian Moorhen,Gallinula chloropus_Eurasian Moorhen,0.50
+817,original_zero_shot,Setophaga americana,Northern Parula,Setophaga americana_Northern Parula,0.50
+818,original_zero_shot,Gavia immer,Common Loon,Gavia immer_Common Loon,0.50
+819,original_zero_shot,Regulus regulus,Goldcrest,Regulus regulus_Goldcrest,0.50
+820,original_zero_shot,Sphyrapicus nuchalis,Red-naped Sapsucker,Sphyrapicus nuchalis_Red-naped Sapsucker,0.50
+821,original_zero_shot,Charadrius alexandrinus,Kentish Plover,Charadrius alexandrinus_Kentish Plover,0.50
+822,original_zero_shot,Accipiter gentilis,Northern Goshawk,Accipiter gentilis_Northern Goshawk,0.50
+823,original_zero_shot,Remiz pendulinus,Eurasian Penduline-Tit,Remiz pendulinus_Eurasian Penduline-Tit,0.50
+824,original_zero_shot,Petronia petronia,Rock Sparrow,Petronia petronia_Rock Sparrow,0.50
+825,original_zero_shot,Sylvia hortensis,Western Orphean Warbler,Sylvia hortensis_Western Orphean Warbler,0.50
+826,original_zero_shot,Panurus biarmicus,Bearded Reedling,Panurus biarmicus_Bearded Reedling,0.50
+827,original_zero_shot,Psittacula krameri,Rose-ringed Parakeet,Psittacula krameri_Rose-ringed Parakeet,0.50
+828,original_zero_shot,Merops apiaster,European Bee-eater,Merops apiaster_European Bee-eater,0.50
+829,original_zero_shot,Porzana carolina,Sora,Porzana carolina_Sora,0.50
+830,original_zero_shot,Picus vaillantii,Levaillant's Woodpecker,Picus vaillantii_Levaillant's Woodpecker,0.50
+831,original_zero_shot,Arenaria interpres,Ruddy Turnstone,Arenaria interpres_Ruddy Turnstone,0.50
+832,original_zero_shot,Setophaga graciae,Grace's Warbler,Setophaga graciae_Grace's Warbler,0.50
+833,original_zero_shot,Prinia gracilis,Graceful Prinia,Prinia gracilis_Graceful Prinia,0.50
+834,original_zero_shot,Netta rufina,Red-crested Pochard,Netta rufina_Red-crested Pochard,0.50
+835,original_zero_shot,Geronticus eremita,Northern Bald Ibis,Geronticus eremita_Northern Bald Ibis,0.50
+836,original_zero_shot,Linaria cannabina,Eurasian Linnet,Linaria cannabina_Eurasian Linnet,0.50
+837,original_zero_shot,Ammospiza nelsoni,Nelson's Sparrow,Ammospiza nelsoni_Nelson's Sparrow,0.50
+838,original_zero_shot,Alaudala rufescens,Lesser Short-toed Lark,Alaudala rufescens_Lesser Short-toed Lark,0.50
+839,original_zero_shot,Saxicola rubetra,Whinchat,Saxicola rubetra_Whinchat,0.50
+840,original_zero_shot,Sphyrapicus varius,Yellow-bellied Sapsucker,Sphyrapicus varius_Yellow-bellied Sapsucker,0.50
+841,original_zero_shot,Catharus ustulatus,Swainson's Thrush,Catharus ustulatus_Swainson's Thrush,0.50
+842,original_zero_shot,Bubulcus ibis,Cattle Egret,Bubulcus ibis_Cattle Egret,0.50
+843,original_zero_shot,Aix galericulata,Mandarin Duck,Aix galericulata_Mandarin Duck,0.50
+844,original_zero_shot,Strix occidentalis,Spotted Owl,Strix occidentalis_Spotted Owl,0.50
+845,original_zero_shot,Chlidonias niger,Black Tern,Chlidonias niger_Black Tern,0.50
+846,original_zero_shot,Leptotila verreauxi,White-tipped Dove,Leptotila verreauxi_White-tipped Dove,0.50
+847,original_zero_shot,Riparia riparia,Bank Swallow,Riparia riparia_Bank Swallow,0.50
+848,original_zero_shot,Ficedula speculigera,Atlas Flycatcher,Ficedula speculigera_Atlas Flycatcher,0.50
+849,original_zero_shot,Crotophaga sulcirostris,Groove-billed Ani,Crotophaga sulcirostris_Groove-billed Ani,0.50
+850,original_zero_shot,Haemorhous mexicanus,House Finch,Haemorhous mexicanus_House Finch,0.50
+851,original_zero_shot,Phylloscopus trochiloides,Greenish Warbler,Phylloscopus trochiloides_Greenish Warbler,0.50
+852,original_zero_shot,Gallinago media,Great Snipe,Gallinago media_Great Snipe,0.50
+853,original_zero_shot,Oenanthe leucura,Black Wheatear,Oenanthe leucura_Black Wheatear,0.50
+854,original_zero_shot,Limosa fedoa,Marbled Godwit,Limosa fedoa_Marbled Godwit,0.50
+855,original_zero_shot,Burhinus oedicnemus,Eurasian Thick-knee,Burhinus oedicnemus_Eurasian Thick-knee,0.50
+856,original_zero_shot,Anser serrirostris,Tundra Bean-Goose,Anser serrirostris_Tundra Bean-Goose,0.50
+857,original_zero_shot,Lanius ludovicianus,Loggerhead Shrike,Lanius ludovicianus_Loggerhead Shrike,0.50
+858,original_zero_shot,Peucedramus taeniatus,Olive Warbler,Peucedramus taeniatus_Olive Warbler,0.50
+859,original_zero_shot,Branta hutchinsii,Cackling Goose,Branta hutchinsii_Cackling Goose,0.50
+860,original_zero_shot,Vermivora cyanoptera,Blue-winged Warbler,Vermivora cyanoptera_Blue-winged Warbler,0.50
+861,original_zero_shot,Mareca penelope,Eurasian Wigeon,Mareca penelope_Eurasian Wigeon,0.50
+862,original_zero_shot,Sphyrapicus thyroideus,Williamson's Sapsucker,Sphyrapicus thyroideus_Williamson's Sapsucker,0.50
+863,original_zero_shot,Tyrannus forficatus,Scissor-tailed Flycatcher,Tyrannus forficatus_Scissor-tailed Flycatcher,0.50
+864,original_zero_shot,Anthus campestris,Tawny Pipit,Anthus campestris_Tawny Pipit,0.50
+865,original_zero_shot,Setophaga pinus,Pine Warbler,Setophaga pinus_Pine Warbler,0.50
+866,original_zero_shot,Acrocephalus palustris,Marsh Warbler,Acrocephalus palustris_Marsh Warbler,0.50
+867,original_zero_shot,Calidris alba,Sanderling,Calidris alba_Sanderling,0.50
+868,original_zero_shot,Amazilia yucatanensis,Buff-bellied Hummingbird,Amazilia yucatanensis_Buff-bellied Hummingbird,0.50
+869,original_zero_shot,Leucosticte atrata,Black Rosy-Finch,Leucosticte atrata_Black Rosy-Finch,0.50
+870,original_zero_shot,Francolinus francolinus,Black Francolin,Francolinus francolinus_Black Francolin,0.50
+871,original_zero_shot,Cardellina pusilla,Wilson's Warbler,Cardellina pusilla_Wilson's Warbler,0.50
+872,original_zero_shot,Recurvirostra avosetta,Pied Avocet,Recurvirostra avosetta_Pied Avocet,0.50
+873,original_zero_shot,Chamaea fasciata,Wrentit,Chamaea fasciata_Wrentit,0.50
+874,original_zero_shot,Selasphorus sasin,Allen's Hummingbird,Selasphorus sasin_Allen's Hummingbird,0.50
+875,original_zero_shot,Anhinga anhinga,Anhinga,Anhinga anhinga_Anhinga,0.50
+876,original_zero_shot,Emberiza cineracea,Cinereous Bunting,Emberiza cineracea_Cinereous Bunting,0.50
+877,original_zero_shot,Pycnonotus jocosus,Red-whiskered Bulbul,Pycnonotus jocosus_Red-whiskered Bulbul,0.50
+878,original_zero_shot,Polioptila californica,California Gnatcatcher,Polioptila californica_California Gnatcatcher,0.50
+879,original_zero_shot,Porphyrio porphyrio,Western Swamphen,Porphyrio porphyrio_Western Swamphen,0.50
+880,original_zero_shot,Cyanocorax yncas,Green Jay,Cyanocorax yncas_Green Jay,0.50
+881,original_zero_shot,Pluvialis fulva,Pacific Golden-Plover,Pluvialis fulva_Pacific Golden-Plover,0.50
+882,original_zero_shot,Cistothorus platensis,Sedge Wren,Cistothorus platensis_Sedge Wren,0.50
+883,original_zero_shot,Porzana porzana,Spotted Crake,Porzana porzana_Spotted Crake,0.50
+884,original_zero_shot,Ketupa zeylonensis,Brown Fish-Owl,Ketupa zeylonensis_Brown Fish-Owl,0.50
+885,original_zero_shot,Ixobrychus exilis,Least Bittern,Ixobrychus exilis_Least Bittern,0.50
+886,original_zero_shot,Zonotrichia albicollis,White-throated Sparrow,Zonotrichia albicollis_White-throated Sparrow,0.50
+887,original_zero_shot,Setophaga striata,Blackpoll Warbler,Setophaga striata_Blackpoll Warbler,0.50
+888,original_zero_shot,Sternula antillarum,Least Tern,Sternula antillarum_Least Tern,0.50
+889,original_zero_shot,Contopus cooperi,Olive-sided Flycatcher,Contopus cooperi_Olive-sided Flycatcher,0.50
+890,original_zero_shot,Catherpes mexicanus,Canyon Wren,Catherpes mexicanus_Canyon Wren,0.50
+891,original_zero_shot,Calidris ferruginea,Curlew Sandpiper,Calidris ferruginea_Curlew Sandpiper,0.50
+892,original_zero_shot,Monticola solitarius,Blue Rock-Thrush,Monticola solitarius_Blue Rock-Thrush,0.50
+893,original_zero_shot,Protonotaria citrea,Prothonotary Warbler,Protonotaria citrea_Prothonotary Warbler,0.50
+894,original_zero_shot,Geococcyx californianus,Greater Roadrunner,Geococcyx californianus_Greater Roadrunner,0.50
+895,original_zero_shot,Pluvialis squatarola,Black-bellied Plover,Pluvialis squatarola_Black-bellied Plover,0.50
+896,original_zero_shot,Larus argentatus,Herring Gull,Larus argentatus_Herring Gull,0.50
+897,original_zero_shot,Sialia sialis,Eastern Bluebird,Sialia sialis_Eastern Bluebird,0.50
+898,original_zero_shot,Rhynchophanes mccownii,McCown's Longspur,Rhynchophanes mccownii_McCown's Longspur,0.50
+899,original_zero_shot,Athene cunicularia,Burrowing Owl,Athene cunicularia_Burrowing Owl,0.50
+900,original_zero_shot,Mycteria americana,Wood Stork,Mycteria americana_Wood Stork,0.50
+901,original_zero_shot,Gallinago delicata,Wilson's Snipe,Gallinago delicata_Wilson's Snipe,0.50
+902,original_zero_shot,Acanthis flammea,Common Redpoll,Acanthis flammea_Common Redpoll,0.50
+903,original_zero_shot,Tringa ochropus,Green Sandpiper,Tringa ochropus_Green Sandpiper,0.50
+904,original_zero_shot,Vireo gilvus,Warbling Vireo,Vireo gilvus_Warbling Vireo,0.50
+905,original_zero_shot,Motacilla flava,Western Yellow Wagtail,Motacilla flava_Western Yellow Wagtail,0.50
+906,original_zero_shot,Aphelocoma coerulescens,Florida Scrub-Jay,Aphelocoma coerulescens_Florida Scrub-Jay,0.50
+907,original_zero_shot,Centronyx henslowii,Henslow's Sparrow,Centronyx henslowii_Henslow's Sparrow,0.50
+908,original_zero_shot,Alcedo atthis,Common Kingfisher,Alcedo atthis_Common Kingfisher,0.50
+909,original_zero_shot,Rostrhamus sociabilis,Snail Kite,Rostrhamus sociabilis_Snail Kite,0.50
+910,original_zero_shot,Lophodytes cucullatus,Hooded Merganser,Lophodytes cucullatus_Hooded Merganser,0.50
+911,original_zero_shot,Hippolais icterina,Icterine Warbler,Hippolais icterina_Icterine Warbler,0.50
+912,original_zero_shot,Irania gutturalis,White-throated Robin,Irania gutturalis_White-throated Robin,0.50
+913,original_zero_shot,Falco eleonorae,Eleonora's Falcon,Falco eleonorae_Eleonora's Falcon,0.50
+914,original_zero_shot,Archilochus colubris,Ruby-throated Hummingbird,Archilochus colubris_Ruby-throated Hummingbird,0.50
+915,original_zero_shot,Emberiza citrinella,Yellowhammer,Emberiza citrinella_Yellowhammer,0.50
+916,original_zero_shot,Tadorna ferruginea,Ruddy Shelduck,Tadorna ferruginea_Ruddy Shelduck,0.50
+917,original_zero_shot,Myadestes townsendi,Townsend's Solitaire,Myadestes townsendi_Townsend's Solitaire,0.50
+918,original_zero_shot,Emberiza schoeniclus,Reed Bunting,Emberiza schoeniclus_Reed Bunting,0.50
+919,original_zero_shot,Rynchops niger,Black Skimmer,Rynchops niger_Black Skimmer,0.50
+920,original_zero_shot,Ciconia nigra,Black Stork,Ciconia nigra_Black Stork,0.50
+921,original_zero_shot,Acrocephalus paludicola,Aquatic Warbler,Acrocephalus paludicola_Aquatic Warbler,0.50
+922,original_zero_shot,Dryobates arizonae,Arizona Woodpecker,Dryobates arizonae_Arizona Woodpecker,0.50
+923,original_zero_shot,Oreoscoptes montanus,Sage Thrasher,Oreoscoptes montanus_Sage Thrasher,0.50
+924,original_zero_shot,Galerida cristata,Crested Lark,Galerida cristata_Crested Lark,0.50
+925,original_zero_shot,Coracias garrulus,European Roller,Coracias garrulus_European Roller,0.50
+926,original_zero_shot,Calidris melanotos,Pectoral Sandpiper,Calidris melanotos_Pectoral Sandpiper,0.50
+927,original_zero_shot,Spinus lawrencei,Lawrence's Goldfinch,Spinus lawrencei_Lawrence's Goldfinch,0.50
+928,original_zero_shot,Xenus cinereus,Terek Sandpiper,Xenus cinereus_Terek Sandpiper,0.50
+929,original_zero_shot,Peucaea cassinii,Cassin's Sparrow,Peucaea cassinii_Cassin's Sparrow,0.50
+930,original_zero_shot,Setophaga virens,Black-throated Green Warbler,Setophaga virens_Black-throated Green Warbler,0.50
+931,original_zero_shot,Larus hyperboreus,Glaucous Gull,Larus hyperboreus_Glaucous Gull,0.50
+932,original_zero_shot,Vireo cassinii,Cassin's Vireo,Vireo cassinii_Cassin's Vireo,0.50
+933,original_zero_shot,Locustella fluviatilis,Eurasian River Warbler,Locustella fluviatilis_Eurasian River Warbler,0.50
+934,original_zero_shot,Somateria mollissima,Common Eider,Somateria mollissima_Common Eider,0.50
+935,original_zero_shot,Cinclus mexicanus,American Dipper,Cinclus mexicanus_American Dipper,0.50
+936,original_zero_shot,Myiarchus cinerascens,Ash-throated Flycatcher,Myiarchus cinerascens_Ash-throated Flycatcher,0.50
+937,original_zero_shot,Surnia ulula,Northern Hawk Owl,Surnia ulula_Northern Hawk Owl,0.50
+938,original_zero_shot,Motacilla tschutschensis,Eastern Yellow Wagtail,Motacilla tschutschensis_Eastern Yellow Wagtail,0.50
+939,original_zero_shot,Pipilo chlorurus,Green-tailed Towhee,Pipilo chlorurus_Green-tailed Towhee,0.50
+940,original_zero_shot,Cardinalis cardinalis,Northern Cardinal,Cardinalis cardinalis_Northern Cardinal,0.50
+941,original_zero_shot,Sayornis phoebe,Eastern Phoebe,Sayornis phoebe_Eastern Phoebe,0.50
+942,original_zero_shot,Pluvialis apricaria,European Golden-Plover,Pluvialis apricaria_European Golden-Plover,0.50
+943,original_zero_shot,Lanius senator,Woodchat Shrike,Lanius senator_Woodchat Shrike,0.50
+944,original_zero_shot,Picoides tridactylus,Eurasian Three-toed Woodpecker,Picoides tridactylus_Eurasian Three-toed Woodpecker,0.50
+945,original_zero_shot,Loxia curvirostra,Red Crossbill,Loxia curvirostra_Red Crossbill,0.50
+946,original_zero_shot,Anser erythropus,Lesser White-fronted Goose,Anser erythropus_Lesser White-fronted Goose,0.50
+947,original_zero_shot,Lanius phoenicuroides,Red-tailed Shrike,Lanius phoenicuroides_Red-tailed Shrike,0.50
+948,original_zero_shot,Motacilla citreola,Citrine Wagtail,Motacilla citreola_Citrine Wagtail,0.50
+949,original_zero_shot,Stercorarius skua,Great Skua,Stercorarius skua_Great Skua,0.50
+950,original_zero_shot,Pycnonotus barbatus,Common Bulbul,Pycnonotus barbatus_Common Bulbul,0.50
+951,original_zero_shot,Clamator glandarius,Great Spotted Cuckoo,Clamator glandarius_Great Spotted Cuckoo,0.50
+952,original_zero_shot,Aegolius acadicus,Northern Saw-whet Owl,Aegolius acadicus_Northern Saw-whet Owl,0.50
+953,original_zero_shot,Dolichonyx oryzivorus,Bobolink,Dolichonyx oryzivorus_Bobolink,0.50
+954,original_zero_shot,Junco phaeonotus,Yellow-eyed Junco,Junco phaeonotus_Yellow-eyed Junco,0.50
+955,original_zero_shot,Calidris falcinellus,Broad-billed Sandpiper,Calidris falcinellus_Broad-billed Sandpiper,0.50
+956,original_zero_shot,Corvus caurinus,Northwestern Crow,Corvus caurinus_Northwestern Crow,0.50
+957,original_zero_shot,Upupa epops,Eurasian Hoopoe,Upupa epops_Eurasian Hoopoe,0.50
+958,original_zero_shot,Carduelis carduelis,European Goldfinch,Carduelis carduelis_European Goldfinch,0.50
+959,original_zero_shot,Fulica atra,Eurasian Coot,Fulica atra_Eurasian Coot,0.50
+960,original_zero_shot,Setophaga kirtlandii,Kirtland's Warbler,Setophaga kirtlandii_Kirtland's Warbler,0.50
+961,original_zero_shot,Gyps fulvus,Eurasian Griffon,Gyps fulvus_Eurasian Griffon,0.50
+962,original_zero_shot,Leucophaeus pipixcan,Franklin's Gull,Leucophaeus pipixcan_Franklin's Gull,0.50
+963,original_zero_shot,Emberiza rustica,Rustic Bunting,Emberiza rustica_Rustic Bunting,0.50
+964,original_zero_shot,Rhodospiza obsoleta,Desert Finch,Rhodospiza obsoleta_Desert Finch,0.50
+965,original_zero_shot,Dendrocopos major,Great Spotted Woodpecker,Dendrocopos major_Great Spotted Woodpecker,0.50
+966,original_zero_shot,Phoenicurus ochruros,Black Redstart,Phoenicurus ochruros_Black Redstart,0.50
+967,original_zero_shot,Bubo ascalaphus,Pharaoh Eagle-Owl,Bubo ascalaphus_Pharaoh Eagle-Owl,0.50
+968,original_zero_shot,Phylloscopus bonelli,Western Bonelli's Warbler,Phylloscopus bonelli_Western Bonelli's Warbler,0.50
+969,original_zero_shot,Sturnella magna,Eastern Meadowlark,Sturnella magna_Eastern Meadowlark,0.50
+970,original_zero_shot,Arenaria melanocephala,Black Turnstone,Arenaria melanocephala_Black Turnstone,0.50
+971,original_zero_shot,Falco tinnunculus,Eurasian Kestrel,Falco tinnunculus_Eurasian Kestrel,0.50
+972,original_zero_shot,Apus pallidus,Pallid Swift,Apus pallidus_Pallid Swift,0.50
+973,original_zero_shot,Junco hyemalis,Dark-eyed Junco,Junco hyemalis_Dark-eyed Junco,0.50
+974,original_zero_shot,Elanus axillaris,Black-shouldered Kite,Elanus axillaris_Black-shouldered Kite,0.50
+975,original_zero_shot,Chaetura pelagica,Chimney Swift,Chaetura pelagica_Chimney Swift,0.50
+976,original_zero_shot,Lampornis clemenciae,Blue-throated Hummingbird,Lampornis clemenciae_Blue-throated Hummingbird,0.50
+977,original_zero_shot,Bombycilla garrulus,Bohemian Waxwing,Bombycilla garrulus_Bohemian Waxwing,0.50
+978,original_zero_shot,Parkesia motacilla,Louisiana Waterthrush,Parkesia motacilla_Louisiana Waterthrush,0.50
+979,original_zero_shot,Aegithalos caudatus,Long-tailed Tit,Aegithalos caudatus_Long-tailed Tit,0.50
+980,original_zero_shot,Pluvialis dominica,American Golden-Plover,Pluvialis dominica_American Golden-Plover,0.50
+981,original_zero_shot,Anthus rubescens,American Pipit,Anthus rubescens_American Pipit,0.50
+982,original_zero_shot,Athene noctua,Little Owl,Athene noctua_Little Owl,0.50
+983,original_zero_shot,Contopus pertinax,Greater Pewee,Contopus pertinax_Greater Pewee,0.50
+984,original_zero_shot,Sterna paradisaea,Arctic Tern,Sterna paradisaea_Arctic Tern,0.50
+985,original_zero_shot,Hydrocoloeus minutus,Little Gull,Hydrocoloeus minutus_Little Gull,0.50
+986,original_zero_shot,Artemisiospiza nevadensis,Sagebrush Sparrow,Artemisiospiza nevadensis_Sagebrush Sparrow,0.50
+987,appended_pilot,Anthornis melanura,New Zealand Bellbird,Anthornis melanura_New Zealand Bellbird,0.10
+988,appended_pilot,Gymnorhina tibicen,Australian Magpie,Gymnorhina tibicen_Australian Magpie,0.10
+989,appended_pilot,Dacelo novaeguineae,Laughing Kookaburra,Dacelo novaeguineae_Laughing Kookaburra,0.10
+990,appended_pilot,Colluricincla harmonica,Gray Shrikethrush,Colluricincla harmonica_Gray Shrikethrush,0.10
+991,appended_pilot,Cacomantis flabelliformis,Fan-tailed Cuckoo,Cacomantis flabelliformis_Fan-tailed Cuckoo,0.10
+992,appended_pilot,Psophodes olivaceus,Eastern Whipbird,Psophodes olivaceus_Eastern Whipbird,0.10
+993,appended_pilot,Psilopogon nuchalis,Taiwan Barbet,Psilopogon nuchalis_Taiwan Barbet,0.10
+994,appended_pilot,Ninox boobook,Southern Boobook,Ninox boobook_Southern Boobook,0.10
+995,appended_pilot,Menura novaehollandiae,Superb Lyrebird,Menura novaehollandiae_Superb Lyrebird,0.10
+996,appended_pilot,Zanda funerea,Yellow-tailed Black-Cockatoo,Zanda funerea_Yellow-tailed Black-Cockatoo,0.10
+997,appended_pilot,Pardalotus punctatus,Spotted Pardalote,Pardalotus punctatus_Spotted Pardalote,0.10
+998,appended_pilot,Trichoglossus moluccanus,Rainbow Lorikeet,Trichoglossus moluccanus_Rainbow Lorikeet,0.10
+999,appended_pilot,Zosterops lateralis,Silvereye,Zosterops lateralis_Silvereye,0.10
+1000,appended_pilot,Rhipidura albiscapa,Grey Fantail,Rhipidura albiscapa_Grey Fantail,0.10
+1001,appended_pilot,Corvus mellori,Little Raven,Corvus mellori_Little Raven,0.10
+1002,appended_pilot,Cyclarhis gujanensis,Rufous-browed Peppershrike,Cyclarhis gujanensis_Rufous-browed Peppershrike,0.10
+1003,appended_pilot,Acanthiza pusilla,Brown Thornbill,Acanthiza pusilla_Brown Thornbill,0.10
+1004,appended_pilot,Cormobates leucophaea,White-throated Treecreeper,Cormobates leucophaea_White-throated Treecreeper,0.10
+1005,appended_pilot,Acrocephalus australis,Australian Reed Warbler,Acrocephalus australis_Australian Reed Warbler,0.10
+1006,appended_pilot,Vanellus miles,Masked Lapwing,Vanellus miles_Masked Lapwing,0.10

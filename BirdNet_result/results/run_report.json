@@ -1,0 +1,44 @@
+{
+  "architecture": {
+    "appended_classes": 20,
+    "appended_head": "/hpc/group/coursesf26ece365/B_Net_finetune/runs/pilot_20x50_6000_ada/append20_head.pt",
+    "feature_layer": 153,
+    "original_classes": 987,
+    "original_head": "unchanged frozen BirdNET-V1 checkpoint",
+    "total_classes": 1007
+  },
+  "caveat": "Denoising/cleaned_v4 has no species ground-truth labels. These are candidate detections only; the pilot's held-out metrics do not establish accuracy on these recordings.",
+  "detections": {
+    "appended_classes_with_events": 16,
+    "appended_events": 113,
+    "original_events": 79,
+    "total_events": 192
+  },
+  "input": {
+    "directory": "/hpc/group/coursesf26ece365/Denoising/cleaned_v4",
+    "files": 30,
+    "window_seconds": 3.0,
+    "windows": 600
+  },
+  "original_score_regression": {
+    "max_abs_difference": 1.1641532182693481e-10,
+    "reference_files_checked": 5,
+    "tolerance": 1e-06
+  },
+  "provenance": {
+    "birdnet_adapter": "/hpc/group/coursesf26ece365/B_Net_demo/birdnet_demo.py",
+    "device": "cpu",
+    "fine_tuning_source": "/hpc/group/coursesf26ece365/B_Net_finetune/finetune_append20.py",
+    "inference_source": "/hpc/group/coursesf26ece365/B_Net_finetune/denoising_inference/run_appended_inference.py",
+    "snapshot": "/hpc/group/coursesf26ece365/B_Net_demo/BirdNET-V1/model/BirdNET_Soundscape_Model.pkl",
+    "snapshot_sha256": "979c6133147354a87f8ee62cc0d77182259014e49aa0c5eb04d99614729a839e"
+  },
+  "purpose": "descriptive candidate inference on unlabeled Denoising recordings",
+  "runtime_seconds": 0.6420854842290282,
+  "status": "completed",
+  "thresholds": {
+    "appended_pilot": 0.1,
+    "note": "The thresholds are head-specific and should not be treated as calibrated probabilities.",
+    "original_zero_shot": 0.5
+  }
+}

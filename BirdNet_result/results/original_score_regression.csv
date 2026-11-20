@@ -1,0 +1,6 @@
+filename,reference,max_abs_difference,class_order_verified
+20220615_000002_602_v4.flac,/hpc/group/coursesf26ece365/B_Net_demo/zero_shot/outputs/all_scores/20220615_000002_602_v4_all_scores.npz,2.9103830456733704e-11,True
+20220615_122543_200_v4.flac,/hpc/group/coursesf26ece365/B_Net_demo/zero_shot/outputs/all_scores/20220615_122543_200_v4_all_scores.npz,0.0,True
+20220615_122543_324_v4.flac,/hpc/group/coursesf26ece365/B_Net_demo/zero_shot/outputs/all_scores/20220615_122543_324_v4_all_scores.npz,1.1641532182693481e-10,True
+20220615_122543_406_v4.flac,/hpc/group/coursesf26ece365/B_Net_demo/zero_shot/outputs/all_scores/20220615_122543_406_v4_all_scores.npz,2.9103830456733704e-11,True
+20220615_122543_644_v4.flac,/hpc/group/coursesf26ece365/B_Net_demo/zero_shot/outputs/all_scores/20220615_122543_644_v4_all_scores.npz,1.1641532182693481e-10,True

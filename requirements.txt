@@ -1,0 +1,10 @@
+Flask>=3.0
+
+# Real BirdNET inference (birdnet_inference.py) — only exercised when
+# BirdNet_result/artifacts/BirdNET_Soundscape_Model.pkl is present; the app
+# falls back to synthetic data without them, but install these to actually
+# analyze uploaded audio.
+numpy>=1.23
+scipy>=1.10
+torch>=2.0
+soundfile>=0.12

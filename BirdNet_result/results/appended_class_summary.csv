@@ -1,0 +1,21 @@
+class_index,scientific_name,common_name,reporting_threshold,events_at_or_above_threshold,files_with_event,peak_score,mean_score,peak_global_window_index
+993,Psilopogon nuchalis,Taiwan Barbet,0.10,52,15,0.12571231,0.08382608,369
+994,Ninox boobook,Southern Boobook,0.10,19,9,0.10868085,0.07812754,107
+988,Gymnorhina tibicen,Australian Magpie,0.10,9,2,0.13138352,0.07195060,242
+987,Anthornis melanura,New Zealand Bellbird,0.10,4,2,0.11346213,0.06952940,242
+1001,Corvus mellori,Little Raven,0.10,4,2,0.10660918,0.07038375,311
+1003,Acanthiza pusilla,Brown Thornbill,0.10,4,3,0.10186891,0.07041481,193
+989,Dacelo novaeguineae,Laughing Kookaburra,0.10,3,2,0.11396455,0.07216795,193
+1006,Vanellus miles,Masked Lapwing,0.10,3,1,0.11012521,0.07104644,299
+1005,Acrocephalus australis,Australian Reed Warbler,0.10,3,3,0.10529363,0.06202598,231
+995,Menura novaehollandiae,Superb Lyrebird,0.10,3,1,0.10497924,0.06667620,242
+1000,Rhipidura albiscapa,Grey Fantail,0.10,2,2,0.10545906,0.06844946,303
+996,Zanda funerea,Yellow-tailed Black-Cockatoo,0.10,2,1,0.10320336,0.07119739,285
+999,Zosterops lateralis,Silvereye,0.10,2,2,0.10032968,0.06699569,231
+990,Colluricincla harmonica,Gray Shrikethrush,0.10,1,1,0.10355894,0.06827824,244
+1004,Cormobates leucophaea,White-throated Treecreeper,0.10,1,1,0.10290381,0.06971456,0
+997,Pardalotus punctatus,Spotted Pardalote,0.10,1,1,0.10209865,0.06836922,567
+992,Psophodes olivaceus,Eastern Whipbird,0.10,0,0,0.09857170,0.07359342,242
+998,Trichoglossus moluccanus,Rainbow Lorikeet,0.10,0,0,0.09772209,0.06417324,557
+1002,Cyclarhis gujanensis,Rufous-browed Peppershrike,0.10,0,0,0.09697905,0.07168554,193
+991,Cacomantis flabelliformis,Fan-tailed Cuckoo,0.10,0,0,0.09204422,0.06596716,244

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.claude/
+
+# Raw/cleaned audio samples (226MB) — kept local, not committed to git.
+Denoising/

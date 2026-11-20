@@ -1,0 +1,19 @@
+{
+  "audio_root": "/hpc/group/coursesf26ece365/iNatSounds_2024/audio/pilot_20x50",
+  "grouping": "one Hugging Face row per group; the mirror omits upstream recording IDs, so duplicate-source relationships cannot be checked",
+  "new_class_count": 20,
+  "output_dimension_after_append": 1007,
+  "purpose": "internal held-out pilot split for appended BirdNET-V1 classes",
+  "seed": 365,
+  "source_manifest": "/hpc/group/coursesf26ece365/iNatSounds_2024/analysis/pilot_20x50/download_manifest.csv",
+  "split_counts_per_species": {
+    "test": 8,
+    "train": 35,
+    "validation": 7
+  },
+  "total_counts": {
+    "test": 160,
+    "train": 700,
+    "validation": 140
+  }
+}
